@@ -21,7 +21,22 @@ QUERIES = [
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
-RELEVANCE_MARKERS = {"tiktok", "tik tok", "creator", "creatori", "video brevi", "short video", "social network", "social media", "tiktok shop", "reel", "reels"}
+# Segnali distinti: una semplice menzione di TikTok nella descrizione non basta.
+TITLE_RELEVANCE_MARKERS = (
+    "tiktok", "tik tok", "tiktok shop", "creator economy",
+    "creator", "creatori", "social media", "social network",
+    "video brevi", "short video", "reels", "reel",
+)
+TOPIC_MARKERS = (
+    "funzione", "funzioni", "aggiornamento", "aggiornamenti", "novità",
+    "strumenti", "algoritmo", "contenuti", "video", "visualizzazioni",
+    "follower", "community", "diretta", "live shopping", "vendere",
+    "monetizzazione", "creator", "creatori", "social", "trend", "tiktok",
+)
+OFF_TOPIC_MARKERS = (
+    "autolesion", "omicidio", "arrestat", "polizia", "incidente",
+    "insultano", "insulto", "allarme", "tragedia", "morto", "morta",
+)
 HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
 MAX_AGE_DAYS = 60
 ITALIAN_MARKERS = {"il", "lo", "la", "gli", "le", "un", "una", "di", "del", "della", "dei", "delle", "che", "per", "con", "su", "come", "nuovo", "nuova", "nuove", "aggiornamento", "funzioni", "creator", "tiktok"}
@@ -48,8 +63,15 @@ def italian_enough(title, summary):
     return not (en_score >= 2 and en_score > it_score)
 
 def is_relevant(title, summary):
-    text = (title + " " + summary).lower().replace("tik tok", "tiktok")
-    return any(marker in text for marker in RELEVANCE_MARKERS)
+    title_text = title.lower().replace("tik tok", "tiktok")
+    full_text = (title + " " + summary).lower().replace("tik tok", "tiktok")
+    # Scarta titoli di cronaca non utili a creare contenuti, anche se citano TikTok.
+    if any(marker in title_text for marker in OFF_TOPIC_MARKERS):
+        return False
+    title_has_signal = any(marker in title_text for marker in TITLE_RELEVANCE_MARKERS)
+    topic_hits = sum(1 for marker in TOPIC_MARKERS if marker in full_text)
+    # La pertinenza deve emergere soprattutto dal titolo, oppure da più segnali tematici.
+    return title_has_signal and topic_hits >= 1
 
 def fetch(query, category):
     params = urllib.parse.urlencode({"q": query, "hl": "it", "gl": "IT", "ceid": "IT:it"})
