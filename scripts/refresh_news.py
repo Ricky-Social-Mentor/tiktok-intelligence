@@ -148,7 +148,13 @@ def near_duplicate(a, b):
     jaccard = intersection / len(ta | tb)
     containment = intersection / min(len(ta), len(tb))
     if jaccard < 0.40 and containment < 0.65:
-        return False
+        # Riconosce le diverse formulazioni della stessa notizia sulle funzioni
+        # dei commenti, senza confondere articoli su argomenti differenti.
+        shared = ta & tb
+        comment_feature_terms = {"commenti"} & shared
+        feature_terms = {"vocali", "vocale", "voce", "sondaggi", "caroselli", "carosello", "foto", "fotografie"}
+        if not comment_feature_terms or len(shared & feature_terms) == 0:
+            return False
     try:
         da = datetime.fromisoformat(a["published_at"].replace("Z", "+00:00"))
         db = datetime.fromisoformat(b["published_at"].replace("Z", "+00:00"))
