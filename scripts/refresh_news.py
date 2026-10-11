@@ -23,9 +23,11 @@ QUERIES = [
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
 # Segnali distinti: una semplice menzione di TikTok nella descrizione non basta.
 TITLE_RELEVANCE_MARKERS = (
-    "tiktok", "tik tok", "tiktok shop", "creator economy",
-    "creator", "creatori", "social media", "social network",
-    "video brevi", "short video", "reels", "reel",
+    "tiktok shop", "creator economy", "creator", "creatori",
+    "algoritmo", "funzione", "funzioni", "aggiornamento", "aggiornamenti",
+    "strumenti", "contenuti", "visualizzazioni", "follower", "hashtag",
+    "monetizzazione", "diretta", "live shopping", "trend", "tendenze",
+    "marketing", "pubblicità", "sondaggi", "caroselli",
 )
 TOPIC_MARKERS = (
     "funzione", "funzioni", "aggiornamento", "aggiornamenti", "novità",
@@ -70,7 +72,7 @@ def is_relevant(title, summary):
         return False
     title_has_signal = any(marker in title_text for marker in TITLE_RELEVANCE_MARKERS)
     topic_hits = sum(1 for marker in TOPIC_MARKERS if marker in full_text)
-    # La pertinenza deve emergere soprattutto dal titolo, oppure da più segnali tematici.
+    # La sola parola TikTok non rende pertinente una notizia: serve un tema da creator.
     return title_has_signal and topic_hits >= 1
 
 def fetch(query, category):
