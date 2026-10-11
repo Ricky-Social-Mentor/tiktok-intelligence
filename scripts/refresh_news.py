@@ -19,6 +19,9 @@ QUERIES = [
     ("Trucchi e crescita", 'consigli TikTok creator crescere algoritmo contenuti strategie'),
     ("Trend e creator", 'tendenze TikTok creator virale Italia trend 2026'),
     ("Strategia contenuti", 'TikTok consigli creator hook storytelling SEO engagement Italia 2026'),
+    ("Creator e strumenti", 'TikTok creator strumenti video commenti caroselli sondaggi Italia'),
+    ("Crescita pratica", 'TikTok come aumentare visualizzazioni completamento video creator Italia'),
+    ("Monetizzazione", 'TikTok creator monetizzazione collaborazioni affiliazione Italia'),
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
@@ -31,6 +34,8 @@ TITLE_RELEVANCE_MARKERS = (
     "marketing", "pubblicità", "sondaggi", "caroselli", "crescere",
     "crescita", "strategie", "strategia", "consigli", "tutorial",
     "engagement", "seo", "hook", "storytelling", "pubblicare",
+    "visualizzazioni", "completamento", "collaborazioni", "affiliazione",
+    "affiliazioni", "brand", "sondaggi", "caroselli", "commenti",
 )
 TOPIC_MARKERS = (
     "funzione", "funzioni", "aggiornamento", "aggiornamenti", "novità",
