@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T16:15:15Z",
+  "updated_at": "2026-10-11T17:22:22Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmi6gfbvv95cuxouk9yogvmqkvheezfdxfpcndqug5bulizd0s4rkkxbjlwz1h2c",
@@ -24,6 +24,17 @@
       "published_at": "2026-09-04T07:00:00Z"
     },
     {
+      "id": "https-news-google-com-rss-articles-cbmisafbvv95cuxpynmxmkzlz3vsywzwytbsm00wrgq1bdzwrmdswnbtaenslxzze",
+      "title": "TikTok rivoluziona i commenti: arrivano messaggi vocali, sondaggi e foto - Tgcom24",
+      "summary": "TikTok rivoluziona i commenti: arrivano messaggi vocali, sondaggi e foto Tgcom24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYnMxMkZlZ3VsYWZWYTBSM00wRGQ1bDZWRmdSWnBTaENSLXZzeHc5bVB3WlM5RERQbk1IMEdCQndKNWtxcnRhZ2JYX1o1bW02Nkk1Sl9zQWswbUJQUHJvVElhc3dyWWYxb244cUxUbnlOaXZNUW9YVlFRQ29jNFhvZlBjVVlkTGlIVElNSXRjdXVPQjVYWXdFQlZzaFNJM19FZmNEdEJ2OWlkMkt2TFAwY9IBaEFVX3lxTE5BTlZJQy1ZQmttRUhuX2ljakhrZWNYYVFFLV9SbkoyR1lQUXg0RXJGSFAxWXU2T0sweERkMUxWVllfMF9hSUNiRXY3WlQ5VjE2Mk1PT09XU2RjTFpMYzJWRjVmYm1vZFI0?oc=5",
+      "source": "Tgcom24",
+      "source_url": "https://www.tgcom24.mediaset.it",
+      "category": "Community e commenti",
+      "confidence": "emerging",
+      "published_at": "2026-09-04T07:00:00Z"
+    },
+    {
       "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte95tg1xylz5utvss09omnjtdvrjeuflq0jnwhpvnelfnf9zrhvrv",
       "title": "Esprimiti nei commenti: ti presentiamo le funzioni “Voce”, \"Sondaggi\" e “Caroselli” - Newsroom | TikTok",
       "summary": "Esprimiti nei commenti: ti presentiamo le funzioni “Voce”, \"Sondaggi\" e “Caroselli” Newsroom | TikTok",
@@ -33,6 +44,17 @@
       "category": "Funzioni TikTok",
       "confidence": "verified",
       "published_at": "2026-09-03T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmihafbvv95cuxpuktit2z0r2txwezizmdtv3q2ykpvd0cxsktwddvqq1q0rutov",
+      "title": "Fibermaxxing: cosa c’è di vero nel trend virale delle fibre su TikTok - Dossier Salute",
+      "summary": "Fibermaxxing: cosa c’è di vero nel trend virale delle fibre su TikTok Dossier Salute",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUktIT2Z0R2tXWEZIZmdTV3Q2Ykpvd0cxSktWdDVQQ1Q0RUtOVVBTZjFqRFNFVnd6QXdqVDVGNGVNXzJuNnRPNGl4dC1jR1R1cGI5R0Y3cl9yckVXVWtvd09YMmY3eDZCNHU1R2YyNkk5LTBoZzBpdE1XY1RmRHpzRTZNakg?oc=5",
+      "source": "Dossier Salute",
+      "source_url": "https://www.dossiersalute.com",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-08-02T07:00:00Z"
     }
   ],
   "source_note": "Feed in italiano, limitato a contenuti recenti; apri la fonte originale per verificare i dettagli.",
