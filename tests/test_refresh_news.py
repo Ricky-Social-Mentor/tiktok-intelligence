@@ -34,6 +34,12 @@ class RelevanceFilterTests(unittest.TestCase):
             "Strumenti di vendita e monetizzazione per attività."
         ))
 
+    def test_creator_collaboration_topic_is_relevant(self):
+        self.assertTrue(is_relevant(
+            "TikTok: nuove collaborazioni tra creator e brand",
+            "Opportunità per creator e affiliazioni in Italia."
+        ))
+
     def test_topic_headline_without_tiktok_mention_is_filtered(self):
         self.assertFalse(is_relevant(
             "Esprimiti nei commenti: nuove funzioni Voce, Sondaggi e Caroselli",
