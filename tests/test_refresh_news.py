@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.refresh_news import is_relevant, italian_enough
+from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles
 
 
 class RelevanceFilterTests(unittest.TestCase):
@@ -57,6 +57,23 @@ class RelevanceFilterTests(unittest.TestCase):
             "TikTok introduce nuovi strumenti per i creator",
             "Ecco come usare le nuove funzioni."
         ))
+
+    def test_near_duplicate_headlines_are_detected(self):
+        a = {"title": "TikTok rivoluziona i commenti: arrivano messaggi vocali, sondaggi e foto", "published_at": "2026-09-04T07:00:00Z"}
+        b = {"title": "La rivoluzione dei commenti su TikTok: arrivano vocali e sondaggi", "published_at": "2026-09-04T07:00:00Z"}
+        self.assertTrue(near_duplicate(a, b))
+
+    def test_different_topics_are_not_duplicates(self):
+        a = {"title": "TikTok Shop corso gratuito per giovani creator e imprese", "published_at": "2026-10-09T04:46:06Z"}
+        b = {"title": "TikTok: consigli SEO per migliorare la ricerca dei video", "published_at": "2026-10-09T04:46:06Z"}
+        self.assertFalse(near_duplicate(a, b))
+
+    def test_deduplication_prefers_official_source(self):
+        syndicated = {"title": "TikTok introduce nuove funzioni vocali e sondaggi nei commenti", "published_at": "2026-09-04T07:00:00Z", "url": "https://example.com/story", "confidence": "emerging"}
+        official = {"title": "TikTok introduce nuove funzioni vocali e sondaggi nei commenti", "published_at": "2026-09-04T07:00:00Z", "url": "https://newsroom.tiktok.com/story", "confidence": "verified"}
+        result = deduplicate_articles([syndicated, official])
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["confidence"], "verified")
 
 
 if __name__ == "__main__":
