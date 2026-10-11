@@ -145,7 +145,7 @@ def near_duplicate(a, b):
     if not ta or not tb:
         return False
     overlap = len(ta & tb) / len(ta | tb)
-    if overlap < 0.62:
+    if overlap < 0.40:
         return False
     try:
         da = datetime.fromisoformat(a["published_at"].replace("Z", "+00:00"))
