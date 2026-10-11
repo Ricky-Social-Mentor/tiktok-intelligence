@@ -144,8 +144,10 @@ def near_duplicate(a, b):
     ta, tb = title_tokens(a.get("title", "")), title_tokens(b.get("title", ""))
     if not ta or not tb:
         return False
-    overlap = len(ta & tb) / len(ta | tb)
-    if overlap < 0.40:
+    intersection = len(ta & tb)
+    jaccard = intersection / len(ta | tb)
+    containment = intersection / min(len(ta), len(tb))
+    if jaccard < 0.40 and containment < 0.65:
         return False
     try:
         da = datetime.fromisoformat(a["published_at"].replace("Z", "+00:00"))
