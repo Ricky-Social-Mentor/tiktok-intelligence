@@ -22,6 +22,64 @@ async function loadData(){const b=$('refresh');b.disabled=true;b.textContent='�
 function render(){const q=$('search').value.toLowerCase(),cat=$('category').value,conf=$('confidence').value;const list=articles.filter(a=>(!savedMode||saved.has(a.id))&&(cat==='all'||a.category===cat)&&(conf==='all'||a.confidence===conf)&&[a.title,a.summary,a.source,a.category].join(' ').toLowerCase().includes(q));$('listTitle').textContent=savedMode?'Notizie salvate':'Ultime notizie';$('count').textContent=list.length+' risultati';if(!list.length){$('news').innerHTML='<div class="empty">'+(savedMode?'Non hai ancora salvato notizie.':'Nessuna notizia con questi filtri.')+'</div>';return}
 $('news').innerHTML=list.map(a=>'<article class="card"><div class="cardtop"><span class="tag '+(a.confidence==='verified'?'verified':'emerging')+'">'+(a.confidence==='verified'?'Fonte ufficiale':'Trend / da verificare')+'</span><span class="date">'+esc(fmt(a.published_at))+'</span></div><h3>'+esc(a.title)+'</h3><div class="summary">'+esc(a.summary||'Apri la fonte per i dettagli.')+'</div><div class="source">'+esc(a.category||'TikTok')+' · '+esc(a.source||'Fonte')+'</div><div class="cardactions"><button class="smallbtn hot" data-video="'+esc(a.id)+'">✦ Suggeriscimi un video</button><button class="smallbtn" data-save="'+esc(a.id)+'">'+(saved.has(a.id)?'★ Salvato':'☆ Salva per dopo')+'</button><a class="smallbtn" href="'+esc(a.url||'#')+'" target="_blank" rel="noopener">Leggi fonte ↗</a></div></article>').join('');
 $('news').querySelectorAll('[data-video]').forEach(b=>b.onclick=()=>makeScript(articles.find(a=>a.id===b.dataset.video)));$('news').querySelectorAll('[data-save]').forEach(b=>b.onclick=()=>{const id=b.dataset.save;saved.has(id)?saved.delete(id):saved.add(id);localStorage.setItem('ti-saved',JSON.stringify([...saved]));render()})}
-function makeScript(a){if(!a)return;const title=a.title.replace(/[.!?]+$/,'');const hook='Se usi TikTok per crescere, questa novità potrebbe interessarti: ecco cosa controllare prima di applicarla.';const spoken='È emerso questo spunto: '+title+'.\n\nPerché ti interessa: valuta se riguarda il tuo pubblico e il tuo obiettivo, che sia crescere, creare fiducia o vendere.\n\nCosa fare: controlla la fonte originale, prova una sola modifica alla volta e misura il risultato. Non inseguire ogni trend: scegli quello coerente con la tua strategia.';const parts=[['HOOK · primi 3 secondi',hook],['TESTO IN SOVRIMPRESSIONE',title+'\nCosa significa per chi crea contenuti'],['PARLATO / SCALETTA',spoken],['KEYWORD SEO',(a.category==='Vendita e business'?'vendere su TikTok, TikTok per aziende':a.category==='Algoritmo e crescita'?'algoritmo TikTok, crescere su TikTok':'novità TikTok, strategie contenuti TikTok')],['CAPTION','Una novità da tenere d’occhio se crei contenuti su TikTok. Verifica la fonte e valuta se è adatta al tuo pubblico. #TikTokItalia #StrategieTikTok #Creator'],['CALL TO ACTION','Salva il video e dimmi nei commenti: vuoi altri aggiornamenti pratici su TikTok?'],['FONTE E VERIFICA',(a.source||'Fonte non specificata')+'\n'+(a.url||'')+'\nControlla i dettagli prima di presentare la notizia come confermata. Pubblico: creator, professionisti e piccole attività.']];currentScript=parts.map(p=>p[0]+'\n'+p[1]).join('\n\n');$('modalTitle').textContent='Idea video da personalizzare';$('modalSubtitle').textContent=a.title;$('script').innerHTML=parts.map(p=>'<section class="scriptpart"><h3>'+esc(p[0])+'</h3><p>'+esc(p[1])+'</p></section>').join('');$('modal').classList.add('open')}
+function makeScript(a){
+if(!a)return;
+const title=a.title.replace(/[.!?]+$/,'');
+const text=(title+' '+(a.summary||'')).toLowerCase();
+let angle,hook,overlay,spoken,keywords,caption,cta;
+if(a.category==='Novità TikTok'){
+ angle='spiegazione pratica di una funzione';
+ hook='TikTok ha presentato una novità: ecco cosa verificare prima di provarla sul tuo account.';
+ overlay='NUOVA FUNZIONE TIKTOK?\nEcco cosa controllare';
+ spoken='Oggi parliamo di una novità legata a TikTok.\n\nPrimo: verifica nella fonte ufficiale se la funzione è disponibile anche nel tuo Paese e sul tuo account.\n\nSecondo: chiediti quale problema risolve per chi ti segue: più interazione, contenuti più chiari o una community più attiva?\n\nTerzo: se è disponibile, provala in un singolo contenuto e confronta i risultati con i tuoi video abituali. Non darla per disponibile per tutti senza averlo verificato.';
+ keywords='novità TikTok, funzioni TikTok, consigli TikTok, strategie contenuti TikTok';
+ caption='Una funzione nuova ha valore solo se aiuta il tuo pubblico. Prima verifica la disponibilità, poi testala con un obiettivo preciso.';
+ cta='Quale funzione di TikTok vorresti che spiegassi con un esempio pratico?';
+} else if(a.category==='Algoritmo e crescita'){
+ angle='consiglio testabile per crescere';
+ hook='Vuoi crescere su TikTok? Non cambiare tutto insieme: testa prima un solo elemento.';
+ overlay='CRESCERE SU TIKTOK\nUna cosa da testare alla volta';
+ spoken='Quando trovi un consiglio sulla crescita, evita di applicarlo alla cieca.\n\nScegli un solo elemento da testare, per esempio l’apertura del video, la chiarezza del tema o la domanda che fai al pubblico.\n\nMantieni simili gli altri elementi e confronta più video, non un singolo risultato. Guarda le metriche coerenti con il tuo obiettivo: tempo di visione, commenti, visite al profilo o richieste.\n\nLa regola pratica è questa: un test, un obiettivo, una misura.';
+ keywords='algoritmo TikTok, crescere su TikTok, retention TikTok, strategie contenuti TikTok';
+ caption='Per migliorare i contenuti, testa una variabile alla volta e valuta i dati rispetto al tuo obiettivo.';
+ cta='Quale metrica vuoi migliorare: visualizzazioni, commenti o richieste?';
+} else if(a.category==='Vendita e business'){
+ angle='applicazione commerciale concreta';
+ hook='Usi TikTok per trovare clienti? Collega ogni trend a un bisogno reale del tuo pubblico.';
+ overlay='TIKTOK PER IL TUO BUSINESS\nDal contenuto all’azione';
+ spoken='Se gestisci un’attività o promuovi un servizio, chiediti quale problema del cliente affronta questo argomento.\n\nApri con quel problema, mostra un consiglio o una dimostrazione concreta e spiega il passo successivo senza promesse esagerate.\n\nSe parli di una funzione commerciale, prezzi o disponibilità, controlla sempre la fonte originale e verifica che sia valida per il tuo mercato.\n\nMisura il risultato con l’azione che ti interessa: salvataggi, visite al profilo, clic o contatti.';
+ keywords='TikTok per aziende, vendere su TikTok, marketing TikTok, contenuti per piccole imprese';
+ caption='Un contenuto commerciale parte da un problema reale e propone un prossimo passo chiaro.';
+ cta='Se hai un’attività, quale prodotto o servizio vorresti promuovere meglio su TikTok?';
+} else {
+ angle='spunto trend da adattare al proprio pubblico';
+ hook='Questo argomento sta circolando: come renderlo davvero utile per il tuo pubblico?';
+ overlay='TREND TIKTOK\nCome adattarlo alla tua nicchia';
+ spoken='Questo è uno spunto da valutare, non una garanzia che il trend funzioni per tutti.\n\nPrimo: controlla la data e apri la fonte originale per capire il contesto.\n\nSecondo: trova un collegamento autentico con la tua nicchia, per esempio un errore comune, una risposta a una domanda o una dimostrazione pratica.\n\nTerzo: se il collegamento non è naturale, non forzarlo. Se lo provi, definisci prima quale risultato vuoi osservare.';
+ keywords='trend TikTok, idee video TikTok, creator TikTok, strategie contenuti TikTok';
+ caption='Non tutti i trend sono adatti a tutti: verifica la fonte e trasformalo in qualcosa di utile per la tua nicchia.';
+ cta='Lo useresti per la tua nicchia? Dimmi quale adattamento faresti.';
+}
+if(/sondagg|carousel|carosell|voce|comment/i.test(text) && a.category==='Novità TikTok'){
+ hook='Vuoi più conversazioni con il tuo pubblico? Ecco come valutare le opzioni di interazione su TikTok.';
+ overlay='PIÙ INTERAZIONE SU TIKTOK\nVoce, sondaggi e caroselli';
+ spoken='TikTok ha presentato opzioni legate all’interazione, come voce, sondaggi e caroselli.\n\nLa domanda non è usarle tutte: è scegliere il formato più adatto alla conversazione che vuoi aprire. Un sondaggio può aiutarti a raccogliere preferenze; un carosello può organizzare passaggi o consigli; per la funzione voce verifica disponibilità e contesto nella fonte originale.\n\nControlla la fonte ufficiale e la disponibilità sul tuo account. Poi prova un formato con una domanda precisa e osserva le risposte.';
+}
+const parts=[
+['ANGOLO DEL VIDEO',angle],
+['HOOK · primi 3 secondi',hook],
+['TESTO IN SOVRIMPRESSIONE',overlay],
+['PARLATO / SCALETTA',spoken],
+['KEYWORD SEO',keywords],
+['CAPTION',caption+'\n\n#TikTokItalia #StrategieTikTok #Creator'],
+['CALL TO ACTION',cta],
+['FONTE E VERIFICA',(a.source||'Fonte non specificata')+'\n'+(a.url||'')+'\nData indicata: '+fmt(a.published_at)+'. Verifica la pagina originale e la disponibilità nel tuo account prima di presentare dettagli come confermati.']
+];
+currentScript=parts.map(p=>p[0]+'\n'+p[1]).join('\n\n');
+$('modalTitle').textContent='Idea video da personalizzare';
+$('modalSubtitle').textContent=a.title;
+$('script').innerHTML=parts.map(p=>'<section class="scriptpart"><h3>'+esc(p[0])+'</h3><p>'+esc(p[1])+'</p></section>').join('');
+$('modal').classList.add('open')
+}
 $('refresh').onclick=loadData;$('savedOnly').onclick=()=>{savedMode=!savedMode;$('savedOnly').textContent=savedMode?'← Tutte le notizie':'☆ Salvati';render()};$('search').oninput=render;$('category').onchange=render;$('confidence').onchange=render;$('close').onclick=()=>$('modal').classList.remove('open');$('modal').onclick=e=>{if(e.target===$('modal'))$('modal').classList.remove('open')};$('copyScript').onclick=async()=>{try{await navigator.clipboard.writeText(currentScript);$('copyScript').textContent='Copiato ✓';setTimeout(()=>$('copyScript').textContent='Copia tutto lo script',1600)}catch(e){$('copyScript').textContent='Copia non disponibile: seleziona il testo'}};loadData();
 </script></body></html>
