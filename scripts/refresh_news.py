@@ -26,6 +26,17 @@ QUERIES = [
     ("Creator marketing", 'site:later.com/blog TikTok creator tips trends'),
     ("TikTok ufficiale", 'site:newsroom.tiktok.com/it-IT TikTok creator strumenti contenuti'),
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
+    ("Creator italiani", 'TikTok creator italiani consigli contenuti strategie social media'),
+    ("Video e retention", 'TikTok durata video retention completamento visualizzazioni creator Italia'),
+    ("Ricerca TikTok", 'TikTok SEO ricerca parole chiave caption hashtag creator Italia'),
+    ("Brand e partnership", 'TikTok influencer marketing campagne brand creator Italia'),
+    ("Strumenti per video", 'TikTok editor video sottotitoli montaggio creator Italia'),
+    ("Community e commenti", 'TikTok community commenti risposte creator nuove funzioni Italia'),
+    ("Trend social italiani", 'TikTok trend audio format creator social media Italia questa settimana'),
+    ("Creator economy", 'TikTok economia creator guadagnare collaborazioni Italia'),
+    ("Fonti social italiane", 'site: punto-informatico.it TikTok creator aggiornamento'),
+    ("Marketing digitale", 'site: ninja.it TikTok creator social media marketing'),
+    ("Creator e formazione", 'site: engage.it TikTok creator influencer marketing'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
 # Segnali distinti: una semplice menzione di TikTok nella descrizione non basta.
@@ -51,8 +62,8 @@ OFF_TOPIC_MARKERS = (
     "insultano", "insulto", "allarme", "tragedia", "morto", "morta",
 )
 HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
-MAX_AGE_DAYS = 60
-ITALIAN_MARKERS = {"il", "lo", "la", "gli", "le", "un", "una", "di", "del", "della", "dei", "delle", "che", "per", "con", "su", "come", "nuovo", "nuova", "nuove", "aggiornamento", "funzioni", "creator", "tiktok"}
+MAX_AGE_DAYS = 90
+ITALIAN_MARKERS = {"il", "lo", "la", "gli", "le", "un", "una", "di", "del", "della", "dei", "delle", "che", "per", "con", "su", "come", "nuovo", "nuova", "nuove", "aggiornamento", "funzioni", "creator", "tiktok", "sono", "arriva", "arrivano", "dopo", "dalle", "dalla", "anche", "più", "italia", "italiano", "italiana", "video", "commenti", "strumenti"}
 ENGLISH_MARKERS = {"the", "and", "for", "with", "from", "how", "what", "why", "new", "latest", "tips", "guide", "trend", "trends", "households", "returning", "levels", "lead", "exclusive", "announces", "introduces", "update", "updates", "growth", "small", "business", "viral"}
 
 def clean(value):
