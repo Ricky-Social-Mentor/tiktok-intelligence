@@ -22,6 +22,9 @@ QUERIES = [
     ("Creator e strumenti", 'TikTok creator strumenti video commenti caroselli sondaggi Italia'),
     ("Crescita pratica", 'TikTok come aumentare visualizzazioni completamento video creator Italia'),
     ("Monetizzazione", 'TikTok creator monetizzazione collaborazioni affiliazione Italia'),
+    ("Guide social", 'site:socialmediatoday.com TikTok creator video marketing'),
+    ("Creator marketing", 'site:later.com/blog TikTok creator tips trends'),
+    ("TikTok ufficiale", 'site:newsroom.tiktok.com/it-IT TikTok creator strumenti contenuti'),
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
