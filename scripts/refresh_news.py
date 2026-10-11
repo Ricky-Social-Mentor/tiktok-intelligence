@@ -135,6 +135,47 @@ def fetch(query, category):
         })
     return found
 
+def title_tokens(title):
+    stop = {"tiktok", "tik", "tok", "nuove", "nuovi", "nuova", "nuovo", "arriva", "arrivano", "per", "con", "della", "delle", "degli", "dei", "come", "sul", "sulla", "nel", "nella", "il", "lo", "la", "i", "gli", "le", "un", "una", "di", "e", "a", "da", "in", "su"}
+    return {word for word in re.findall(r"[a-zà-ÿ0-9]+", title.lower()) if len(word) > 2 and word not in stop}
+
+def near_duplicate(a, b):
+    """Confronta titoli normalizzati per evitare versioni quasi identiche della stessa notizia."""
+    ta, tb = title_tokens(a.get("title", "")), title_tokens(b.get("title", ""))
+    if not ta or not tb:
+        return False
+    overlap = len(ta & tb) / len(ta | tb)
+    if overlap < 0.62:
+        return False
+    try:
+        da = datetime.fromisoformat(a["published_at"].replace("Z", "+00:00"))
+        db = datetime.fromisoformat(b["published_at"].replace("Z", "+00:00"))
+        return abs((da - db).total_seconds()) <= 14 * 86400
+    except (KeyError, ValueError, TypeError):
+        return False
+
+def deduplicate_articles(items):
+    """Deduplica URL esatti e titoli simili, preferendo fonti ufficiali a parità di data."""
+    ranked = sorted(
+        items,
+        key=lambda a: (
+            a.get("confidence") == "verified",
+            a.get("published_at") or "",
+            bool(a.get("summary")),
+        ),
+        reverse=True,
+    )
+    kept, seen_urls = [], set()
+    for item in ranked:
+        url = item.get("url", "").split("?")[0].rstrip("/")
+        if not url or url in seen_urls:
+            continue
+        if any(near_duplicate(item, existing) for existing in kept):
+            continue
+        seen_urls.add(url)
+        kept.append(item)
+    return sorted(kept, key=lambda a: a.get("published_at") or "", reverse=True)
+
 def main():
     items, errors = [], []
     for category, query in QUERIES:
@@ -142,13 +183,7 @@ def main():
             items.extend(fetch(query, category))
         except Exception as exc:
             errors.append(f"{category}: {type(exc).__name__}")
-    unique, seen = [], set()
-    for item in sorted(items, key=lambda a: a.get("published_at") or "", reverse=True):
-        key = item["url"]
-        if key in seen:
-            continue
-        seen.add(key)
-        unique.append(item)
+    unique = deduplicate_articles(items)
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "articles": unique[:50],
