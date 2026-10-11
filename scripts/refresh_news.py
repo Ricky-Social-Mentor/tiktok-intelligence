@@ -16,8 +16,9 @@ OUT = ROOT / "news.json"
 QUERIES = [
     ("Funzioni TikTok", 'site:newsroom.tiktok.com/it-IT OR site:newsroom.tiktok.com "funzione" OR "strumenti" TikTok'),
     ("Aggiornamenti TikTok", 'TikTok aggiornamento novità piattaforma Italia'),
-    ("Trucchi e crescita", 'consigli TikTok creator crescere algoritmo contenuti'),
-    ("Trend e creator", 'tendenze TikTok creator virale Italia'),
+    ("Trucchi e crescita", 'consigli TikTok creator crescere algoritmo contenuti strategie'),
+    ("Trend e creator", 'tendenze TikTok creator virale Italia trend 2026'),
+    ("Strategia contenuti", 'TikTok consigli creator hook storytelling SEO engagement Italia 2026'),
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
@@ -27,7 +28,9 @@ TITLE_RELEVANCE_MARKERS = (
     "algoritmo", "funzione", "funzioni", "aggiornamento", "aggiornamenti",
     "strumenti", "contenuti", "visualizzazioni", "follower", "hashtag",
     "monetizzazione", "diretta", "live shopping", "trend", "tendenze",
-    "marketing", "pubblicità", "sondaggi", "caroselli",
+    "marketing", "pubblicità", "sondaggi", "caroselli", "crescere",
+    "crescita", "strategie", "strategia", "consigli", "tutorial",
+    "engagement", "seo", "hook", "storytelling", "pubblicare",
 )
 TOPIC_MARKERS = (
     "funzione", "funzioni", "aggiornamento", "aggiornamenti", "novità",
