@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect a small set of public Google News RSS searches into news.json."""
+"""Collect public Google News RSS searches into news.json."""
 import json
 import re
 import urllib.parse
@@ -13,17 +13,17 @@ from html import unescape
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "news.json"
 QUERIES = [
-    ("Novità TikTok", 'site:newsroom.tiktok.com TikTok'),
-    ("Algoritmo e crescita", 'TikTok algorithm creator tips growth'),
-    ("Trend e creator", 'TikTok trends creators viral trend'),
-    ("Vendita e business", 'TikTok Shop social commerce small business'),
+    ("Novità TikTok", "site:newsroom.tiktok.com TikTok"),
+    ("Algoritmo e crescita", "TikTok algorithm creator tips growth"),
+    ("Trend e creator", "TikTok trends creators viral trend"),
+    ("Vendita e business", "TikTok Shop social commerce small business"),
 ]
-OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "newsroom.tiktok.com/en-us", "news.tiktok.com")
+OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
 HEADERS = {"User-Agent": "TikTokIntelligence/1.0 (public RSS reader)"}
 
 def clean(value):
     value = unescape(re.sub(r"<[^>]+>", " ", value or ""))
-    return re.sub(r"\\s+", " ", value).strip()
+    return re.sub(r"\s+", " ", value).strip()
 
 def parse_date(value):
     try:
@@ -38,9 +38,8 @@ def fetch(query, category):
     params = urllib.parse.urlencode({"q": query, "hl": "it", "gl": "IT", "ceid": "IT:it"})
     url = "https://news.google.com/rss/search?" + params
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=20) as response:
-        data = response.read()
-    root = ET.fromstring(data)
+    with urllib.request.urlopen(req, timeout=25) as response:
+        root = ET.fromstring(response.read())
     found = []
     for item in root.findall("./channel/item"):
         title = clean(item.findtext("title", ""))
@@ -51,8 +50,9 @@ def fetch(query, category):
         pub = parse_date(item.findtext("pubDate", ""))
         if not title or not link:
             continue
+        # Google News redirects often obscure the publisher domain; avoid claiming official verification unless the URL clearly says so.
         host = urllib.parse.urlparse(link).netloc.lower()
-        verified = any(domain in host for domain in OFFICIAL_DOMAINS)
+        verified = any(host == domain or host.endswith("." + domain) for domain in OFFICIAL_DOMAINS)
         found.append({
             "id": re.sub(r"[^a-z0-9]+", "-", (link + title).lower()).strip("-")[:100],
             "title": title,
@@ -74,19 +74,17 @@ def main():
             errors.append(f"{category}: {type(exc).__name__}")
     unique, seen = [], set()
     for item in sorted(items, key=lambda a: a.get("published_at") or "", reverse=True):
-        key = item["url"]
-        if key in seen:
+        if item["url"] in seen:
             continue
-        seen.add(key)
+        seen.add(item["url"])
         unique.append(item)
-    # Keep a manageable, recent list; feeds may include older stories if results are sparse.
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "articles": unique[:60],
-        "source_note": "Public RSS search results. Verify the linked original source before publishing claims.",
+        "source_note": "Public RSS search results; check the linked original source before publishing claims.",
         "collection_warnings": errors,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(payload['articles'])} articles; feed errors: {len(errors)}")
 
 if __name__ == "__main__":
