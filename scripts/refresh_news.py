@@ -27,6 +27,7 @@ QUERIES = [
     ("TikTok ufficiale", 'site:newsroom.tiktok.com/it-IT TikTok creator strumenti contenuti'),
     ("IA e strumenti ufficiali", 'site:newsroom.tiktok.com/it-IT TikTok IA inserzionisti strumenti campagne creator 2026'),
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
+    ("TikTok Shop ufficiale", 'site:seller-it.tiktok.com/university TikTok Shop creator Italia'),
     ("Creator italiani", 'TikTok creator italiani consigli contenuti strategie social media'),
     ("Video e retention", 'TikTok durata video retention completamento visualizzazioni creator Italia'),
     ("Ricerca TikTok", 'TikTok SEO ricerca parole chiave caption hashtag creator Italia'),
