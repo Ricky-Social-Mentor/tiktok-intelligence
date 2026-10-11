@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T19:37:05Z",
+  "updated_at": "2026-10-11T20:18:12Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmi6gfbvv95cuxouk9yogvmqkvheezfdxfpcndqug5bulizd0s4rkkxbjlwz1h2c",
@@ -11,6 +11,28 @@
       "category": "Vendita e business",
       "confidence": "emerging",
       "published_at": "2026-10-09T04:46:06Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxocwhqanndodbzmfe0b2noawdnstq4dwfqzc1kdlz5rvvzs1pxv",
+      "title": "UE: Termini di Servizio del Venditore di TikTok Shop - TikTok",
+      "summary": "UE: Termini di Servizio del Venditore di TikTok Shop TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcWhQanNDODBzMFE0b2NoaWdnSTQ4dWFqZC1KdlZ5RVVzS1pXVHdGcVUxMS14YTVnUng4bWlyRUlESEU2NzBpcVNWeW9mT0E2dEwxbkkyOVNtdElGOHlXSGV2WTFTUmV5R21fRzdDVVFHM0NQaGNwOUFnSGJOdGtTNA?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "emerging",
+      "published_at": "2026-09-30T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmif0fvx3lxte9cemg3vdb6vevlz29mmhhqwgxwrurqnmg3afjowfdytwhsvxk0m",
+      "title": "Politica sui contenuti del TikTok Shop EU - TikTok",
+      "summary": "Politica sui contenuti del TikTok Shop EU TikTok",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Cemg3VDB6VEVlZ29mMHhQWGxwRURQNmg3aFJOWFdyTWhsVXk0MzhhQVBLeHktdF9rZUFNdl9oRlBKRXFJbXBNMHF3YUlHNUZEbkNpX1NJdWdFX25BUlNtTVVBcmJpSG95QUw0RWhfSV9ZU1VqN050T2FXODBuX28?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "emerging",
+      "published_at": "2026-09-21T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte95tg1xylz5utvss09omnjtdvrjeuflq0jnwhpvnelfnf9zrhvrv",
@@ -33,6 +55,28 @@
       "category": "Trend e creator",
       "confidence": "emerging",
       "published_at": "2026-08-02T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxomdhhoxfmx2oxcw5mtfety1rlcthcaly1lu5ls19qmepjz3vzv",
+      "title": "Sintesi delle Condizioni d'uso di TikTok Shop UE - TikTok",
+      "summary": "Sintesi delle Condizioni d'uso di TikTok Shop UE TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMDhhOXFMX2oxcW5MTFEtY1RlcThCalY1LU5LS19QMEpjZ3VzVThzZ2t1c3hleE1EdDBUTlcxXzhPWTRWcGNlRzNMZkYwRlJBSnpKYXVlVHhCX0ExTTdmeTZzWDJ4REFGRUh6cWRBV19KVmVQS0s3WF9kMEtPVmFiYw?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "emerging",
+      "published_at": "2026-07-31T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxndujkbdlqwlfvvldxderbs0xgem94bvlremnnndbeexnmtfpst",
+      "title": "Politica sulle recensioni dei clienti di TikTok Shop UE/Regno Unito - TikTok",
+      "summary": "Politica sulle recensioni dei clienti di TikTok Shop UE/Regno Unito TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdUJkbDlqWlFVVldxdERBS0xGem94bVlRemNNNDBEeXNmTFpSTEJCNE0xZ2NRN0pEUERJalBzTHgwaDV5Zkp0cUZpVFB3ek9KekdkazV0cWhXVXljRy1hdUJaODFtbC1US0JqRHRjYXJOVVg0UzRuWXBRUENKdm1Raw?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "emerging",
+      "published_at": "2026-07-31T07:00:00Z"
     }
   ],
   "source_note": "Feed in italiano, limitato a contenuti recenti; apri la fonte originale per verificare i dettagli.",
