@@ -1,4 +1,607 @@
 {
-  "updated_at": null,
-  "articles": []
+  "updated_at": "2026-10-11T13:05:12Z",
+  "articles": [
+    {
+      "id": "https-news-google-com-rss-articles-cbmilafbvv95cuxnctllmdg2tkzpoddxtknzofu2anvttg91qjq0edvicmpwzs1pm",
+      "title": "US Households to Cut Holiday Budgets by 5.5%, Returning to 2024 Levels - 01net",
+      "summary": "US Households to Cut Holiday Budgets by 5.5%, Returning to 2024 Levels 01net",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcTlLMDg2TkZPODdXTkNZOFU2anVtTG91QjQ0eDVIcmpWZS1PM2FMN2lXLXRzaURSUW1obTRkd0lYc1VUMmY5bWxPNzczNTZ5bkV1bEU2SlU1NnZhLWVEWnA4YWpQU3RzY0pJZnJETmEtYzRHRTZxOWJuaUx6MjVPTGdlaXQyRW56V1hPQ0h1X1NIbjZO?oc=5",
+      "source": "01net",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-10-08T21:01:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiakfvx3lxte01wffwtkrrtnzltulzumktdxawwdlhls1rm09rvwdvy3j5z0rzq",
+      "title": "MrBeast, Alex Cooper and Khaby Lame Lead Eshap and What’s Trending 2nd Annual Creator Map | Exclusive - IMDb",
+      "summary": "MrBeast, Alex Cooper and Khaby Lame Lead Eshap and What’s Trending 2nd Annual Creator Map | Exclusive IMDb",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01WFFwTkRrTnZlTUlZUmktdXAwWDlhLS1rM09RVWdVY3J5Z0RzQWVPRTJycVhmZUhPcmlPR2k2RUl2RER1QVN2WTB3TEpMY0pxbFppbTQ3OVFVUXdDOWQ5UGJxc1lWQkZBZWc?oc=5",
+      "source": "IMDb",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-10-08T15:15:51Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte95tg1xylz5utvss09omnjtdvrjeuflq0jnwhpvnelfnf9zrhvrv",
+      "title": "Esprimiti nei commenti: ti presentiamo le funzioni “Voce”, \"Sondaggi\" e “Caroselli” - Newsroom | TikTok",
+      "summary": "Esprimiti nei commenti: ti presentiamo le funzioni “Voce”, \"Sondaggi\" e “Caroselli” Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95TG1XYlZ5UTVsS09OMnJTdVRjeUFLQ0JNWHpVNElfNF9zRHVrVUZNQTA4MHNzN0stMlF6SldiTi03REdpXzlvMHZfQ0RMSElkNVpnTmJHQS1mbGpodGxpYzVwWVhTSHZvamg0VW5aOHFBZ0U3elE?oc=5",
+      "source": "Newsroom | TikTok",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-09-03T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiwefvx3lxte13ou4wntndmvhpdlblt2vvz1nlmm9zekjjmteytu9cvvdrajvpz",
+      "title": "Live shopping: una guida completa alla vendita in livestream (2026) - Shopify",
+      "summary": "Live shopping: una guida completa alla vendita in livestream (2026) Shopify",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13OU4wNTNDMVhPdlBLT2VVZ1NLMm9zekJJMTEyTU9CVVdrajVPZEJVUHhmcng5V0REMjJJTzFNMG5FZXpLNlFkRW0wWldjTU9PMmdSNWpab0E?oc=5",
+      "source": "Shopify",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-08-23T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmikgjbvv95cuxpq1ctsfrhrulevxzydfg0dehmclhattu0vlowz2uzav91ufzbv",
+      "title": "“Atti di autolesionismo in diretta su TikTok”: i fan dell'influencer e blogger Perez Hilton lanciano l'allarme e interviene la polizia - Il Fatto Quotidiano",
+      "summary": "“Atti di autolesionismo in diretta su TikTok”: i fan dell'influencer e blogger Perez Hilton lanciano l'allarme e interviene la polizia Il Fatto Quotidiano",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPQ1ctSFRhRUlEVXZYdFg0dEhMclhaTTU0VlowZ2UzaV91UFZBVTcxNm9NTzlJOE5vX0tqNWhMRnhGRE9HamRfUV9xbThXcEY0bXFxVDAzbEtkT0xkNkQ2ZmQ5cmpwRjZnNWxLQjVTU2JxUmozZGlNYVZuWE1HMy1xbjFRdk9jUFN0T2RnanoxZ1RCYW1hU2szdWY3UmRTQ3lKMUNtVG1UaTl0eDJxR1RzQ0FfcVBlX0pIWU1kQzdGRC14NDJPVEVsWFl4bXRxRWxSZnlPeHByZ3AtQUwzSUxleXZYVjdqSkhheEZQa3ZLdHlHN2p5dnF2bTdQVDhLamFjRDdBeHVfdHVjNF9DTnVFU3h3?oc=5",
+      "source": "Il Fatto Quotidiano",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-08-05T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmid0fvx3lxte9wohlsejh0cdfpoxayafj0thbuzlr6v2fzvgozq0tja0l0rgxhu",
+      "title": "FIFA World Cup 2026™ ha superato 1 trilione di visualizzazioni su TikTok - TikTok Newsroom",
+      "summary": "FIFA World Cup 2026™ ha superato 1 trilione di visualizzazioni su TikTok TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WOHlsejh0cDFPOXAyaFJ0THBUZlR6V2FzVGozQ0tJa0l0RGxhUEEyY292ZU5Lb2xJaDdnejFVWjNPY3d4Y1BiaE1ab0lCcGx6UnRoN3FiWFFWRkxQMTdoTjBJRmVGSEJrd2gwMDlwbTVRZUlOVHhN?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-07-27T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiuwjbvv95cuxqbm1icne4mmpirmvkakpabzhhnk54yxa3ztnsd3zqv3nadgdmz",
+      "title": "“Scusa se porto soldi nel tuo Paese”, poi il dito medio: studenti italiani in vacanza in Thailandia insultano una passeggera in metropolitana, interviene l’Ambasciata - Il Fatto Quotidiano",
+      "summary": "“Scusa se porto soldi nel tuo Paese”, poi il dito medio: studenti italiani in vacanza in Thailandia insultano una passeggera in metropolitana, interviene l’Ambasciata Il Fatto Quotidiano",
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQbm1icnE4MmpIRmVKakpabzhHNk54YXA3ZTNsd3ZQV3NadGdMZ1FfM3FfVWZwcFZuaTJNQmN3TTFEMHJlUXFvM2ZCTzBnQ2pvUGZKRGx3VXUxa1U4UWJWR1VKY1YwYl9QU2ZFLVBOa3pTaERSUnVVYVNkTlhFLU1SQXQxeUpDVngzQWdXLWkwRWxTa0w4Nk4xNEI0RVdhb3ZpOTM1dXMtQl9WSUZPTEE1XzdmSUNScjE3endkdUxHVmFYajFuU2dsYlNHb0JEZ25qUWh5N1E3dGdBbEFoZTJnTFVpanlJTWtsakVWY2ZsdnZhLWhmb3R3T1ZxODdUVGo4WE5wZXB2UWVobEp6dzJyNHh4bTdsS1BTZHVURW5SWHdlX0oxc0NMUDJ3M3BpSGJBaXN4OWxXcXh5a0E?oc=5",
+      "source": "Il Fatto Quotidiano",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-07-25T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiiafbvv95cuxpdufjb0jxmuhfzflfqxfzb1vfadvwrwp6vxrodwxinvhdmvrjy",
+      "title": "Come fare soldi partendo da zero nel 2026? Ecco 15 idee innovative - Moneyfarm Insights",
+      "summary": "Come fare soldi partendo da zero nel 2026? Ecco 15 idee innovative Moneyfarm Insights",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdUFJb0JxMUhFZFlfQXFZb1VFaDVWRWp6VXROdWxiNVhDMVRJYW5hby1RNG94Ny0xY2NJZDloTHU3a1ltcjBCSkgxc3p5VVBHaGlSemlqdmJFcFRZUlJkUk85MEFBZjhfQ193Z3E3MUI1X2ppaUNtT0kyNXdsbEFEbDktVkhvdGZ2?oc=5",
+      "source": "Moneyfarm Insights",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-07-17T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmijafbvv95cuxnbg03zgpjd0hvnvf2mhjnx0hzuze4ounbz1azugllbhpqylbea",
+      "title": "Come aiutiamo le persone a riconoscere e comprendere i contenuti generati dall'intelligenza artificiale su TikTok - TikTok Newsroom",
+      "summary": "Come aiutiamo le persone a riconoscere e comprendere i contenuti generati dall'intelligenza artificiale su TikTok TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbG03ZGpjd0hvNVF2MHJNX0hzUzE4OUNBZ1AzUGllbHpqYlBEaFdzU0ItVnZ3WFB0MGs0Q1N2Z213eF9nLThkWEVkaUU0Q2JvbXlqRjhDZ3JDLTY2VlpFWTExWFZOM1o2UUdNTktzb2ZlaGRQSjV3SThsXzNERGtxZmJIM1ZiLV9RSEhxSA?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-07-10T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmijgfbvv95cuxnd2wysjliatl0whd1qljhdi1ar2herdzkvhjvum1su0rha3fgw",
+      "title": "TikTok celebra Confessions II di Madonna con una campagna globale - TikTok Newsroom",
+      "summary": "TikTok celebra Confessions II di Madonna con una campagna globale TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd2wySjlIaTl0WHd1QlJhdi1aR2hERDZkVHJVUm1SU0Rha3FGWUJma2h4b2ExbmphUEpFVF91aVIxMW9fd2FyeTlGT05vdXUxaW10cDZPSXJyWjItNHk2Ml95Umd6bXgwN1JjRnMtd0ttcWV6RUFPd1N6S1FIQTk2RW14Vkd4aUd0NGZ6Um5B?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-06-30T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmirgfbvv95cuxqwlr5wejobenusw5ranrkz0tjclfbvep2mwltu3zhu3pdtddxw",
+      "title": "Oltre l’e-commerce tradizionale: con TikTok Shop crescono gli acquisti social - Il Sole 24 ORE",
+      "summary": "Oltre l’e-commerce tradizionale: con TikTok Shop crescono gli acquisti social Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWlR5WEJobENUSW5ranRkZ0tJclFBVEp2MWlTU3ZHU3pDTDdXWGxWeU1YY3FIaVBRMzRCcllrYnQ5czNxQzZ0M040WWRsZXBqakFWWDNvaldyaktKVEd5NEs5bXpzWGhXZVRIT3BqREo1eTVOS0ZWd0VzQmF2QXlTNXZkMjJ5aVhHVmdTNFRwQlp2V3FPN09LR1N0SDd5WG5wTG9yOFdkM3FqUFl3U2c?oc=5",
+      "source": "Il Sole 24 ORE",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-06-18T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiugfbvv95cuxnchdsyzjaaml1qlmzyjrytxq2wluxug1taecwnmdldjlqmdu3c",
+      "title": "Beyond traditional e-commerce: social shopping is on the rise with TikTok Shop - Il Sole 24 ORE",
+      "summary": "Beyond traditional e-commerce: social shopping is on the rise with TikTok Shop Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHdSYzJaaml1QlMzYjRyTXQ2WlUxUG1TaEcwNmdLdjlQMDU3c2hsbEtWZExoVVNBTWNUWXh2dG1NSEdadXFkRHNUdWRJR1JjRVlqX0xXU0oyeThSbWxvSmZFeEVPMG85aE1YVVBxMy1fYnFmSmhNM0hIaTJTV3RNeFgzTEZMUzlUWFRadXRhLWJYcXFGS1FVOGlfZVZxWGhRVGdiU0FoUUpfOVJkZmN4NG9RM3VIWjJYUEE?oc=5",
+      "source": "Il Sole 24 ORE",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-06-18T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmieefvx3lxte1jums2ltbdvxhyuem0u3hzctd3mvpvwjzzdff5ehbsb3nszjjkz",
+      "title": "#BookTok Bestseller List: i libri che hanno ispirato le serie TV dettano le regole della classifica di maggio - TikTok Newsroom",
+      "summary": "#BookTok Bestseller List: i libri che hanno ispirato le serie TV dettano le regole della classifica di maggio TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JUms2LTBDVXhYUEM0U3hZcTd3MVpvWjZZdFF5eHBSb3NsZjJkZk1jejlqMDVhWUM5bElXMXgtZUxzYjVIb3N3Wi04TjFqSFhOMm1wbDFReXBzeHRZSFhRTGtyYmNBN3dKdl9yUnVqTmFkbjFHdHExZw?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-06-16T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmifkfvx3lxte91vfpcoxc4zwvywxrnmfu3yudctndrrmfxb2nnutdom1ldsxzus",
+      "title": "ATP e TikTok ampliano la partnership per attrarre la nuova generazione di appassionati di tennis a livello globale - TikTok Newsroom",
+      "summary": "ATP e TikTok ampliano la partnership per attrarre la nuova generazione di appassionati di tennis a livello globale TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91VFpCOXc4ZWVYWXRnMFU3YUdCTndrRmFXb2NNUTdoM1lDSXZUSks3UU1Cc0lJTXFUTXFMRU85ei1saDU2R2Y4Q3Jzck5MS3hSRk5QbXV1R1dSRjlZZS1YQ210QWtxSmV5bFhVQ05xWUZtRV96enVYREo4X1p3UQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-06-09T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmi8wfbvv95cuxoae5sa2xvaza3mzbockzrcvflz2vudflpbnvlegj1dxvwtevlq",
+      "title": "Influencer marketing: Beauty, Fashion e Luxury guidano la crescita. L'analisi AdReport svela i trend di Instagram e TikTok - Spot and Web",
+      "summary": "Influencer marketing: Beauty, Fashion e Luxury guidano la crescita. L'analisi AdReport svela i trend di Instagram e TikTok Spot and Web",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOaE5sa2xVazA3MzBOckZrcVFLZ2VudFlpbnVleGJ1dXVWTEVLQzVtM294cHFwd3BLY3RVTEhzM1pJbGFGSkg0cDlral9QVWRmX19ldnJyV0x4UkYtc2RYdTFVYjNKV2oyX2R3R0VUN2dmR25BNS1yZHROcERrM2otNXZtbXVBSmZGZTJkM2xjX0huS21mMHBrNktxRHg3dzJwQ1g1c2xwbE1YNkR2SThDRGEycWlXcmtqR0NKUldGQkJ2cGlleTU2WV9kQ3ZfNEFOWXllbi1UMXF3QjJrRmh2OERPeVZhWlQyLUhoX3hkOVhqZms?oc=5",
+      "source": "Spot and Web",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-06-09T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmix0fvx3lxtfbhszitudvvzfczdly1zthrcupptejuweytx1fftvpwmhu3dme3c",
+      "title": "Tiktok: oltre 5000 posizioni aperte in Italia e all'estero - Ti Consiglio",
+      "summary": "Tiktok: oltre 5000 posizioni aperte in Italia e all'estero Ti Consiglio",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhSzItUDVVZFczdlY1ZThRcUppTEJUWEYtX1FFTVpWMHU3dmE3cVQyamR3VFVqLVJEZ1lLanlBVy1LZnkzVGtHQzl6ZDFpT01sSms4bERTa1N1OVFyaW13?oc=5",
+      "source": "Ti Consiglio",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-05-26T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmizefvx3lxte9audhtbjnswluwwwjhvi1qx3m5dut3ahh5oxpwq0xqedhcrmlzr",
+      "title": "TikTok World ‘26: la scoperta diventa crescita per i brand - TikTok Newsroom",
+      "summary": "TikTok World ‘26: la scoperta diventa crescita per i brand TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9aUDhtbjNsWlUwWWJhVi1qX3M5dUt3aHh5OXpwQ0xQeDhCRmlZR1MyY25WQlJRY2dGTk1aWlY5Y2V0TUpIdWYzRUlsWFZNUzhzMEYzTzZHYUg0ZFM1MUNUN0pSY28?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-05-12T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiqafbvv95cuxqchfqq0vywjf2zdbzcef5thq1thzpbhjkv0prrnnkqjvwquxwb",
+      "title": "AI commerce: cos’è, come funziona e perché sta cambiando il retail nel 2026 - Economyup",
+      "summary": "AI commerce: cos’è, come funziona e perché sta cambiando il retail nel 2026 Economyup",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHFQQ0VYWjF2ZDBzcEF5THQ1THZPbHJkV0prRnNkQjVwQUxWbEJsZWJpZHN1T1dsUWRicUEtTVZibTZXczdwcUZ5MmU1X1VVc0lEdTlWSm9hdFA4Si14OXg1UURaNHZHOElfU3V5ZkxCSEQtVkczbS0zNEVkWEZVakxYNWQwU2x3anhiZE11b015bmNxMU5za0lJMTRzODZEYzFMREtfRGQ?oc=5",
+      "source": "Economyup",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-05-06T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiykfvx3lxtfbfbkvdsljonedut1fxqu8xc3lpwvzmrs1xevvtx2pyoxlsetu4t",
+      "title": "TikTok Shop Italia: numeri, crescita e come cambia l’e-commerce dopo un anno - Ninja Business School",
+      "summary": "TikTok Shop Italia: numeri, crescita e come cambia l’e-commerce dopo un anno Ninja Business School",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfbkVDSlJoNEduT1FXQU8xc3lPWVZMRS1XeVVtX2pYOXlSeTU4TlUtNzVCU0pVM3o3dUYteU9nVXdDa0hrQk0ybHpCd1pGRVBZR203djlFUE1zdjUwcXdnSjZ3?oc=5",
+      "source": "Ninja Business School",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-04-28T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmivwfbvv95cuxntklvamz1nzrlmzdmzgs2uzdsvmgzmetyeuhza1vqujjuvuxpu",
+      "title": "TikTok Shop Italia, un anno dopo: il discovery e-commerce riscrive il retail digitale - TikTok Newsroom",
+      "summary": "TikTok Shop Italia, un anno dopo: il discovery e-commerce riscrive il retail digitale TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTklVamZ1NzRlMzdmZGs2UzdSVmgzMEtyeUhza1VQUjJuVUxPUGlENjc2ZGlFR1N3OU0teXppR3dSTHo1ZkpIMVlpRlZpNUFnbGJvX1FUQ19YMUNhQ3d4RWlocFJ0MVhZZ2NuN19YZmJnSEVZblpkanpVRUpka3ZKXzYyWTFGRTV0UVpZZjVSSjBXeU9YYnpuQzRjSENmb1Z5dm96Sy02VFhSVXUtT0g1aVhXcGpTcDNRZllfV2VFSQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-04-27T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpsdhtz2fds2d5odr4wmrzvth3rmg1sutovwlvadbvcvlkcvfvq",
+      "title": "E-commerce, in Italia almost 1 in 5 consumers use TikTok Shop - Il Sole 24 ORE",
+      "summary": "E-commerce, in Italia almost 1 in 5 consumers use TikTok Shop Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDhTZ2FDS2d5ODR4WmRZVTh3Rmg1SUtOVWlvaDBVcVlKcVFvQjhQUENpTEIzV0FLb242VGlfR2FtYktCOEg4RGppNmhHc2xBMlozS2VJZ0JtQUQ4b0NZZVlya0dneFdxOGRmS0V1dThKV0RBVzA2ekZEM2dxX1FyZGNHdzJRSEZtd2NSRE9CSjZ1WGVtNEx2dw?oc=5",
+      "source": "Il Sole 24 ORE",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-04-27T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmi3gfbvv95cuxonvrbadjsqwzfqww5qwvkzhfzznffzhbmuzmxtkv6yxbamtzld",
+      "title": "IAS Expands Industry-Leading Media Quality Measurement to TikTok’s Brand & Performance Solutions, Including Search Ad Campaigns - 01net",
+      "summary": "IAS Expands Industry-Leading Media Quality Measurement to TikTok’s Brand & Performance Solutions, Including Search Ad Campaigns 01net",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVRBaDJsQWZfQWw5QWVKZHFzZnFFZHBmUzMxTkV6YXBaMTZLdlh4cTlyR095RE5NMDhXS0RldXZ0NzZwZzk5eTNLUUEwTENQTG8wY2FGQlg1M3lJbzZwb3dSMTFYbXhJV3hGQVp5YXMtRnlSNkIxbDR2NEtObHNPQ3RJQ0xMb0hldk1uc3VLWE1zUGtVZmFCeTBoMmZnZkQ3ZVlEZXQ2aVlJYW5nR0dlRlFGU1VRRGZFTmxoa3VQU29PNG1PbzZETm1QdXUxSlJXVHgxRmo5MVJZMlZZMkE?oc=5",
+      "source": "01net",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-04-20T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiogfbvv95cuxouzu5bfc1vi0xwdv1cw05tu14chl6emfkmmy0nhmzafrfzdbpn",
+      "title": "Più spesa, più spesso: il largo consumo online cresce - tendenzeonline.info",
+      "summary": "Più spesa, più spesso: il largo consumo online cresce tendenzeonline.info",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUzU5bFc1Vi0xWDV1cW05TU14cHl6emFKMmY0NHMzaFRfZDBpN21VamNSNDJWUnE1dHVJR0RoWEJYZmVHaXlBR1F0SVNQVVRMRHR2Y1M1cmRtM05LelZoLVdhcXRkekhJNzNfR3Y0WFNDNG5vWGF3U0MyeGxzNDR3R0pKbGZod2JoSXU3NmwwNFBQWlp6WHVKQkhwLXVyMlA5U0E?oc=5",
+      "source": "tendenzeonline.info",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2026-03-16T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmit0fvx3lxtfbmlwl6tetpuff5sldpdwtvclznbgx3bza5sndzb0dnz1n0mndze",
+      "title": "“You met me at a very Chinese time in my life”—A Vogue Singapore writer investigates TikTok’s latest viral wellness trend - Vogue Singapore",
+      "summary": "“You met me at a very Chinese time in my life”—A Vogue Singapore writer investigates TikTok’s latest viral wellness trend Vogue Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBMLWl6TEtPUFF5SldpdWtvclZNbGx3bzA5Sndzb0dnZ1N0MndZeV9OeWpZRmtRczNUZC1vaVdCR0xDaFZjalZYVzNNSk9LTEU?oc=5",
+      "source": "Vogue Singapore",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-02-03T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmijwfbvv95cuxqrzfowdiysjvgngprt1f0elzivfiyv1e1zmdwn21xadbpa2zdv",
+      "title": "Aggiornamenti sulle modalità di applicazione delle esperienze adeguate all'età in Europa - Newsroom | TikTok",
+      "summary": "Aggiornamenti sulle modalità di applicazione delle esperienze adeguate all'età in Europa Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRzFoWDIySjVGNGprT1F0elZiVFIyV1E1ZmdWN21xaDBPa2ZDV3FPc1BiNjdVOVVaa1JUUUdUdE8yUlktU1NseEdFMFM4aXBYcE9qc3FJa2FnT05UUkhHa2c1MUVTZktjUmwtSjZyeHdqdGplTGJ4aEZqUllneERnUlpqQ2syV2ZiWUNqTHZPMA?oc=5",
+      "source": "Newsroom | TikTok",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-01-16T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmigwfbvv95cuxqwexzslrouthaahjnm3o5vg8xa2s2etkyqmhsthv2a2rnmfhia",
+      "title": "TikTok e FIFA siglano un accordo Preferred Platform senza precedenti per potenziare la visibilità della FIFA World Cup 2026 - Newsroom | TikTok",
+      "summary": "TikTok e FIFA siglano un accordo Preferred Platform senza precedenti per potenziare la visibilità della FIFA World Cup 2026 Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWExZSlROUThaaHJNM3o5VG8xa2s2eTkyQmhsTHV2a2RnMFhialhueGdSNjRJRS1GOXdmZzE3NEdDam40VnhVZ2hhaThRY2xHYUFOSnB3Yk9hQVVqUmRYbkdNSnVLak9CdTJWLUl2elFuZkVrWUVMMWdzMzNFWHRJZml5MA?oc=5",
+      "source": "Newsroom | TikTok",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-01-12T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmicefvx3lxtfa5zuxjc1phbgj2cfljcuffuzq5ofjkntbxa2xjwvpyzkviuktnc",
+      "title": "TikTok GamePlan valorizza la forza della community sportiva di TikTok - TikTok Newsroom",
+      "summary": "TikTok GamePlan valorizza la forza della community sportiva di TikTok TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5ZUxjc1phbGJ2cFljcUFFUzQ5OFJKNTBXa2xJWVpyZkViUktNc0NORmxxMGN0a19yeUYwZXdhT3RaUmhzYUhERklNUzFqWi1jYS1HWGNQc0RDUG9IcW9WREJoejdUbDd5WlpyVkZ0akY?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2026-01-12T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmieefvx3lxte1fexpuzwxas3m2dtvkzxjyme5raur3tfjhvupmv3d6b29az1fin",
+      "title": "TikTok e la Federazione Internazionale Sci e Snowboard (FIS) estendono la partnership per portare l’emozione degli #sportinvernali alla community globale - TikTok Newsroom",
+      "summary": "TikTok e la Federazione Internazionale Sci e Snowboard (FIS) estendono la partnership per portare l’emozione degli #sportinvernali alla community globale TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1feXpUZWxaS3M2dTVKZXJyME5raUR3TFJhVUpmV3d6b29aZ1FiNWdUenV6NVJIX2RtUW9zTlFSeU0tbVIxTDRtN241NTZDTkZWV05LclR3ZllUVS1ZWi1wRjZqY2RQZ0VQdmNlZmlFZDB5TXNyS3A3cA?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-12-19T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiiwfbvv95cuxquhjqnlj4ng83y2xwsju5uu16bmvpsvqxnkvnclawue42cm82t",
+      "title": "TikTok Shop Partners With ReBound for Social Commerce Returns - 01net",
+      "summary": "TikTok Shop Partners With ReBound for Social Commerce Returns 01net",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUHJqNlJ4NG83Y2xwSjU5UU16bmVPSVQxNkVNclAwUE42cm82T0pxZXpHcUhiVnlhTDNpbmtwcUlMZVFVXzhveGRZZWdXWHVPa3VpU0pWbWhuanhKeXVQX1FiQ0dlWkZkQmZhN0s2STI2RFRjRW5LLS1GYXkwNjR5ckhra253Zlk4MkJF?oc=5",
+      "source": "01net",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2025-12-09T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmizefvx3lxte9noufydmrhnmlqclhamghpzndaseuxwvdaylc0txjplwvcuk1ny",
+      "title": "Presentiamo la pagina Nelle vicinanze: scopri cosa succede intorno a te - Newsroom | TikTok",
+      "summary": "Presentiamo la pagina Nelle vicinanze: scopri cosa succede intorno a te Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NOUFYdmRHNmlQclhaMGhpZndaSEUxWVdaYlc0TXJPLWVCUk1NYkwyQ2JldFlxZ3hXTHdha0FzTEdJLTA2eUdvWC1Id19jWnBYak9sWjdZZU9XQ2dRZkVUdnpHUGQ?oc=5",
+      "source": "Newsroom | TikTok",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-12-04T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmidkfvx3lxtfb0vuzkck5blwjzbhdqrvhtazv1nvzjq0hunnbkttzhrwpvtk5nc",
+      "title": "Ogni giorno è un palcoscenico: proclamati i vincitori dei TikTok Awards 2025 presentati da Now - TikTok Newsroom",
+      "summary": "Ogni giorno è un palcoscenico: proclamati i vincitori dei TikTok Awards 2025 presentati da Now TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0VUZkck5BLWJZbHdqRVhtazV1NVZjQ0huNnBkTTZhRWpvTk5NcGJQS3NlOVlzbzlULU9kNVNibUFhUWY1WXU1bFpLZVhCM2liRGxWalhobUg4a2xMUzhJQUlHMjZZVk9CZmZEczlleEhxb1J0VVE?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-11-28T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiqafbvv95cuxnnjnwvmntqtzluy1zvuluutv6rwt0dutrcmxuvktbnnnec1djz",
+      "title": "Primo Black Friday con TikTok Shop: come funziona l’e-commerce social - Il Sole 24 ORE",
+      "summary": "Primo Black Friday con TikTok Shop: come funziona l’e-commerce social Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNjNWVmNTQTZlUy1zVUluUTV6RWt0dUtrcmxuVktBNnNEc1djZmZMTTd6VGZTdXdLVHNmZ3hrUVlXZmFIODkwNm5xb3ZFay1aTlpLV3M5SFdONndPejRCRkp0eWhfTzYtSWx5YTY1VW5QZWVJNkYzWjdGemFhR2NUOEJ1TkxBQUJvTFdVLTducmdsSDFSdlJhamhDZFpyU3kwZXIwRS1ZTGo?oc=5",
+      "source": "Il Sole 24 ORE",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2025-11-27T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmifefvx3lxte9urm90yxhuv09qv29svzdjvw1bqvk4cc1wbnhln3jsy2xht3fmw",
+      "title": "Un nuovo modo per rilassarsi e ritrovare l'energia su TikTok - TikTok Newsroom",
+      "summary": "Un nuovo modo per rilassarsi e ritrovare l'energia su TikTok TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uRm90YXhUV09QV29SVzdjVW1BQVk4cC1WbnhlN3JsY2xhT3FmWE00MEEteEhSTzBhSFJuS3dRTlp5OVNwMG5xWXJISUxIRlJ4TlBFSG1WdkhHMEY3RTFHSGdqS1VMcEliUkJmV2RoTzZaVl9hSzNkRHUzVFQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-11-19T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmihafbvv95cuxqvljkww5hcljkwvhssdfis0y0qtztv2v1s094umtrluvjcjfkb",
+      "title": "The most viral concealers on TikTok: your guide to the best full coverage formulas right now - nss g-club",
+      "summary": "The most viral concealers on TikTok: your guide to the best full coverage formulas right now nss g-club",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVlJKWW5HclJkWVhSSDFiS0Y0QTZtV2V1S094UmtrLUVjcjFKbDR2ZmZBa3pTNHhZN1ZvUEtBU3pFNG5CX2hpVW9JZkFMa3ZaZ1FsZWdCaWJZbXZjZVpFTjJrdHFUSnFRTWVuMjZJS3FnSGx4Nms5RmhPMDFjemdyNF84OTE?oc=5",
+      "source": "nss g-club",
+      "category": "Algoritmo e crescita",
+      "confidence": "emerging",
+      "published_at": "2025-11-10T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiyafbvv95cuxpbnjuzwjxefdxn2dxoxnqtfy0rghsmmpqym9heflbtzbornddd",
+      "title": "TikTok Ad Awards 2025: svelati i finalisti delle campagne italiane più innovative e d'impatto - TikTok Newsroom",
+      "summary": "TikTok Ad Awards 2025: svelati i finalisti delle campagne italiane più innovative e d'impatto TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbnJUZWJxeFdxN2dxOXNQTFY0RGhsMmpqYm9heFlBTzBORndDdlcyRFJBZ3R2ZDkwNDlEY1piUnJYcjl1alV1ZTZkMVl2MEdOWGttY1gybTY1cUpWWDAxQUZMa3pGQ3NtelJ3Q2VhbndVSnpDbUJNRm9YTGZwdnNobjh0bFhzZWtNRy1obkt2SDFra1QxTmVQa2w1V1B2MERHSG1sVGU5Q3NuQ0dyUE9WSTdDNW1TSnFNNFBoaWpVVDVTZndYLWZncA?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-11-03T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmivwfbvv95cuxqd0xln29uau15sxe2am1osxqwv2wtzk5pmnzlr2i2unvvulk5c",
+      "title": "Polizia di Stato, TikTok e Parole O_Stili presentano il Manifesto #BodyNeutrality - TikTok Newsroom",
+      "summary": "Polizia di Stato, TikTok e Parole O_Stili presentano il Manifesto #BodyNeutrality TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0xLN29uaU15SXE2am1oSXQwV2wtZk5pMnZLR2I2UnVvUlk5cHR5MVFWSlB4eDc0UXBzM0xTRHQ4dEMxM1hLMWVsRl9wbGNVOS1mWldzejJXQS1ETmg4aFpLTGlrNUVaNVQ5VjNKMXIxejRiN0dubUgwWF90akl6YjZ4LVV1QXlrUVlUZTVIUXYyX1NGUmFPdVVKMjdIUlhoTDFNVTlZdFhvNnpFMlhRZGMtay1UdW1WbTQyUUNFaw?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-10-09T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmic0fvx3lxtfbfb2lychbpuuphmdvudlr2czfvagfjmtjowhhud1n5dnzqagpgv",
+      "title": "Un aggiornamento sul nostro impegno per offrire agli adolescenti esperienze adeguate alla loro età - TikTok Newsroom",
+      "summary": "Un aggiornamento sul nostro impegno per offrire agli adolescenti esperienze adeguate alla loro età TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfb2lYcHBpUUphMDVUdlR2czFVaGFJMTJoWHhUd1N5dnZqaGpGVm8xU2RnTmd5T0hLSEV2cURhTmF4TnFhbXh5eDVFUlN2bGxDaEdvZDEyQzBSNnNpSDRXNHpyc0d2c3l5VGd1TTdwOThBcFE?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-10-08T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiwgfbvv95cuxobgj1tvpvrnhzbzkwrmpletfutupoq0hyrvzldujnekhlew5ht",
+      "title": "Il mercato food e pet care in Italia vale 3,6 miliardi e cambiano le tendenze di consumo - Foodaffairs.it",
+      "summary": "Il mercato food e pet care in Italia vale 3,6 miliardi e cambiano le tendenze di consumo Foodaffairs.it",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObGJ1TVpvRnhzbzkwRmpLeTFUTUpoQ0hYRVZldUJnekhLeW5HTF9FR3dtMWcyem9scW1PZGdmRGhqVF8yU0kxcDlaQkdkSGp0X2tpQm1adTVpT1FXXzF2Z3dRNS1YSU5oN29WaUkwb2pKWURwYjN6N1VORThSWmU5UUJNNlZRTmcyZVJjQ3hJTS01SldHa1B0N0VPc3NYbFJkY2lHeXZJdzgtanV5LVg5VHl1U0czTXFIODduODZnNkFLQQ?oc=5",
+      "source": "Foodaffairs.it",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2025-09-25T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmieefvx3lxtfbztfh1cuq3edyxluveb0vodc10q3g0zu96bjdzqnuybtrzzdnnn",
+      "title": "TikTok raggiunge 23,9 milioni di utenti in Italia* - TikTok Newsroom",
+      "summary": "TikTok raggiunge 23,9 milioni di utenti in Italia* TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZTFh1cUQ3eDYxLUVEb0VodC10Q3g0ZU96bjdZQnUybTRzZDNNNEhSMU1JVGZTZzNyR2lNYzRkZEQ4WmxsTjVvZk1OemJldU5iQlU0aEZlNGJrZjd6ZGRmaWpsbTQtYXB2M2xMRFIwclRuMGs5VXRpNA?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-09-18T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiygfbvv95cuxntm1idfrvndlzu3lcsfntylbrbmg3ovhnvjbwamzdytnhsvnir",
+      "title": "Digital Services Act: il nostro quinto rapporto sulla trasparenza della moderazione dei contenuti in Europa - TikTok Newsroom",
+      "summary": "Digital Services Act: il nostro quinto rapporto sulla trasparenza della moderazione dei contenuti in Europa TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTm1idFRVNDlzU3lCSFNTYlBrbmg3OVhnVjBWamZDYTNhSVNiRGhFYm82bk5VX0lwX0lXTF9Hb3QxaU9UZmhfZnFvNkpudVdkRVRGSHY5aWxwOUI5a2ZxWS1SaFNIYkw5YWdCT2VMMUt6WGlQajhweHducDc0NDFXWjl2eERkMEpRMUVfY0IzcGluYV9TWDN3SjhGSnYxYmRCaHkyV1A0dDkxd3N6YkZCanUxb3ZJSnRrQVNnbVFGMlpwLVhUX000QXZB?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-09-01T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte54a3jxy0nrqkszywhltjvltw9zum5twkz6r1zpswrndmnzetb5c",
+      "title": "Crea, scopri e connettiti su TikTok: nuove Linee Guida della Community, più chiare ed efficaci - TikTok Newsroom",
+      "summary": "Crea, scopri e connettiti su TikTok: nuove Linee Guida della Community, più chiare ed efficaci TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54a3JXY0NRQkszYWhlTjVlTW9ZUm5tWkZ6R1ZpSWRndmNzeTB5c0QwMVNMaUthSENXMUQtd1ZhbE5IX1hLVnkxTUFkNGpoSHBSU0M5Mm1BU3kxaWJxLXI2OUtocUt2b2JLc3o1dUx2LTgxQUJQTEE?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-08-14T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmijgfbvv95cuxorw8zb3aynlpgrw1lmha3qxz1eetkwedwbhzhttr6nlazvejsz",
+      "title": "Italian BrainRot: now also invading video games - Il Sole 24 ORE",
+      "summary": "Italian BrainRot: now also invading video games Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORW8zb3AyNlpGRW1LMHA3QXZ1eEtKWEdWbHZhTTR6NlAzVEJsZTBCRlBzOEs0NExWVUNOMDhHVTFGTjd0S2pRWWtnbG1EVUFpaXA4TjVFeVVDaWdPV2d0QnZma1BxZHk1dXc3eXlFNlRjNG9DQlp1U29MT0lXU3F3WVFQOHliUnVOa2lFUTJ3?oc=5",
+      "source": "Il Sole 24 ORE",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2025-08-14T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmi6gfbvv95cuxnvznmm1r3nutsuuxowndyt1rsuet5bnbcy0h2t3btcwdrr2fqb",
+      "title": "Da TikTok a Instagram, lo shopping ora si fa sui social. E il giro d’affari globale vale oltre 680 miliardi - Milano Finanza",
+      "summary": "Da TikTok a Instagram, lo shopping ora si fa sui social. E il giro d’affari globale vale oltre 680 miliardi Milano Finanza",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVzNMM1R3NUtsUUxoWndYT1RsUEt5bnBCY0h2T3BtcWdrR2FQbzRLN25rVHJSTDYzanJ3RF9vcUtOSERiRl9RS3ZmTm11djJiSzBuNmpfRnl0bTBGNWJZa0EzX0xLaW5CQTdfRW5jdDVCdnZVaDl6SFpBejNpU2FSTEItRWJ3cUFFUFY0Zi13djRBd1pZc1h3NldfZTRGU2NQWUNTcWY3bmZFeGpCVlZmUXBTYVl6RFQzQjZISjBFN1NHNFEtcF9rNmxPZ29HdG41cUZXT2VUb2V5bWdlOTNxMldySGxZNjRpcWc?oc=5",
+      "source": "Milano Finanza",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2025-08-13T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmidefvx3lxte03ufnxefp4ntzdn0qzennpykhsdju0lumyrgy2setsudfstgrib",
+      "title": "Al via la quarta edizione dei TikTok Ad Awards - TikTok Newsroom",
+      "summary": "Al via la quarta edizione dei TikTok Ad Awards TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03UFNxeFp4NTZDN0QzenNPYkhSdjU0LUMyRGY2SEtSUDFsTGRIbHVTMDI3N3NUbVB4SmhqUmtBUDRqaFFuQnJ5TTVPNHgtVmphY1N2NTFycnpjWUdyYVdNSzBBczZwWUk1dnVQaW5GaTdDYkND?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-06-19T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmimwfbvv95cuxpngkymtctrvbwazlrsgv2sjnumknnsmv5au82u0otsveyn1ddv",
+      "title": "TikTok World 2025: Crescita a 360° con IA, Creatività e Community - TikTok Newsroom",
+      "summary": "TikTok World 2025: Crescita a 360° con IA, Creatività e Community TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGkyMTctRVBwazlRSGV2SjNuMkNnSmV5aU82U0otSVEyN1dDV0h2OURKS2NHcTAtRkRmc0pWVEpUSTlnUGZzWmRNTWxpelBOdUxGVFJMa00tOXBjZ0daT2IzczFxemxqaEdDVE95MHdLMlhOTlpndV9iXzBLU0VGdVF5d3JDek5HRG9ZX24wSFhUSm5WUTZtVnZQbw?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-06-04T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmidefvx3lxte9iqlnyrvpsywvsy1durk56wf9oqmi3nzvlmuluelozckvqrjezt",
+      "title": "La spesa la decide TikTok: supermercati guidati da trend social e influencer - Gambero Rosso",
+      "summary": "La spesa la decide TikTok: supermercati guidati da trend social e influencer Gambero Rosso",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iQlNyRVpsYWVSY1duRk56WF9OQmI3NzVlMUlUelozckVqRjEzTGxLZEZQZ3htQkZJcDcxTlJCc2RnSnhlYUFQWl9wcks1UTZBRl9DU0NqUFdzdEFFNEF3QnRsUGQ4VG1DZjdwUDhkdkNtTlhQ?oc=5",
+      "source": "Gambero Rosso",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2025-05-29T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmisafbvv95cuxnntgzae9mqwpndhpim1g0wmz1avbfcvlrdwx5vnfdylzjdxnyc",
+      "title": "La nostra risposta alla decisione della Irish Data Protection Commission sul trasferimento di dati - Newsroom | TikTok",
+      "summary": "La nostra risposta alla decisione della Irish Data Protection Commission sul trasferimento di dati Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNTgzaE9MQWpndHpIM1g0WmZ1aVBFcVlrdWx5VnFDYlZJdXNyc21fZy03MFJ5V1Y0OV9HZm5RQ0piaDRsMHhneWYwOTZNTGExVlJPNm12U2IyVFA3SWFhYTNHYnpVd3BfZUcxUURmQ3FOa3dnYk5BWGNhZV8ybi1ZSGVlYi1sUDZTMlpmazNoaEJyd3R4aWZ3Z1gyV0E5di1ESnFITmJzVVZKZEhoYVdYdw?oc=5",
+      "source": "Newsroom | TikTok",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-05-02T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiyafbvv95cuxqvxvqzm1qcfhotemwmxvuzmpcqxqxs3fonwryqjdtrmpzbvdmy",
+      "title": "TikTok Shop: la rivoluzione dello shoppertainment in Italia - Agendadigitale.eu",
+      "summary": "TikTok Shop: la rivoluzione dello shoppertainment in Italia Agendadigitale.eu",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVXVQZm1qcFhoTEMwMXVuZmpCQXQxS3FoNWRyQjdTRmpzbVdMYm1OOTE5U0dPTllvMVRnWXJlQ1BMMkVCakNEY08wMzhTZDB2Y252REtRVzN6UGNBZW5WeXg1SEsxWTlKamppZ2NiZnlpT1RsUXFiZFRGcEFWWXQxcHdUczdJNEc3OHNfSTJGV0I0WHFZN2V6SEJXUko5bXhxNG5vNlJPbWFBSk5UVmxYZ3lfN2tDZUdXOUN0NF9LQ1hPM3lxZE8xMw?oc=5",
+      "source": "Agendadigitale.eu",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2025-04-17T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbminafbvv95cuxnvzazqnpfzvnscvzbrgfjsxfxa1bkawxfavjpstlkb2rfatrub",
+      "title": "Un aggiornamento su Progetto Clover: più sicurezza dei dati con il data center in Norvegia interamente operativo - TikTok Newsroom",
+      "summary": "Un aggiornamento su Progetto Clover: più sicurezza dei dati con il data center in Norvegia interamente operativo TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVzAzQnpFZVNscVZBRGFjSXFXa1BkaWxFaVJPSTlkb2RFaTRUbnNPZ3VRQ0NFa1FrbWZiVm9jZ2dsOFJmSTZlWS1ySm9lSzdSMGprM1g2MzRwb0NQbFZpYkcwUVJFaXpXTGJ6SGlPeWlXcFJ2M3JRdzBFSFBZdVdpZDFaY1A5YXlxeGMtdzQwblRvVTlEZncwVC0xUFQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-04-03T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmihgfbvv95cuxpofrhzxjhtk1qzgstodluy00zdvprvjrsq3lum0swz3byvml4u",
+      "title": "Nuove iniziative per supportare i genitori e aiutare gli adolescenti a sviluppare abitudini digitali equilibrate - TikTok Newsroom",
+      "summary": "Nuove iniziative per supportare i genitori e aiutare gli adolescenti a sviluppare abitudini digitali equilibrate TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOFRhZXJHTk1QZGstODlUY00zdVprVjRsQ3luM0swZ3ByVml4UklxRVc4US1RSFpQdGxKUFVEMzQ2MWxKS1E4RFVQT0dabGRBaVNhb1NzOUJhMXl3b2Y0WGtZU2dUcDJ3eHBNMENBanJnUXM4VG1xNnIyZjhyMVhLTnJvaTJkQQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-03-11T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmie0fvx3lxte1fchzweu9esnzattatbwyxuxllbflkvfy3mgkzzfjvavdoz1zyt",
+      "title": "App per Creare Outfit: Crea e Prova Vestiti con l'AI Fashion - Perfect Corp.",
+      "summary": "App per Creare Outfit: Crea e Prova Vestiti con l'AI Fashion Perfect Corp.",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fcHZWeU9ESnZaTTAtbWYxUXllbFlKVFY3MGkzZFJVaVdOZ1ZYTFBiSkpLNU1rT1QzOU1pNXpmWjhsZmsyNWxWelhnMjFMWkIzdXlXekRDdFluRjIwYzJNVEx1NFJwLVd3dm9SbWFYMFp0SjRHR1V0MUt0bw?oc=5",
+      "source": "Perfect Corp.",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2025-03-10T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmimwfbvv95cuxozwhushdvyunorc1hsxq2ow1kmwyzmu95sxhhafizmtdhsw9xn",
+      "title": "Su TikTok è #Sanremo2025 mania: le voci della community regalano un nuovo intrattenimento - TikTok Newsroom",
+      "summary": "Su TikTok è #Sanremo2025 mania: le voci della community regalano un nuovo intrattenimento TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZWhuSHdvYUNORC1hSXQ2OW1kMWYzMU95SXhhaFIzMTdHSW9xNl9tT0UweEM2ZVVBUENxR3M5Yk56Sm9lWVBKQnU3bkxsODh1ZTJicGgxclBFZ3lZQ0VKSXBOT0ItRTIzU1ExdU04Mlh4Z0hubEJiLXI1MllFeHAtOE5lTEVEMGlQd0dyWGhGel93Y1U5UjhCTnVnRQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2025-02-16T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmif0fvx3lxte1gtvhib0vrwlgtswxuy1zqrutcq25lmzvuohhuohvtnmvvuzh5a",
+      "title": "Chi sono i fashion influencer più influenti del 2024? - Soldoutservice",
+      "summary": "Chi sono i fashion influencer più influenti del 2024? Soldoutservice",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GTVhib0VrWlgtSWxuY1ZQRUtCQ25LMzVUOHhUOHVTNmVVUzh5aEh3Z0I0REE4Zk1fanBYUEdNbERNRGZSaENhUXR0MFpTQzl6SXpBcmpiMUszUi14Sm9lUDBmVlhCSVVtaXpub1FNaUp5d2t6dmpaY2RTdXQyNkU?oc=5",
+      "source": "Soldoutservice",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2025-01-14T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmizefvx3lxte1ms29qewxyzzdzognbmupysfbeb2vpskmxmlnts1fizmndzfjut",
+      "title": "#2024suTikTok: i brani e gli artisti dell'anno - Newsroom | TikTok",
+      "summary": "#2024suTikTok: i brani e gli artisti dell'anno Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MS29qeWxyZzdzOGNBMUpySFBEb2VPSkMxMlNTS1FIZmNDZFJuTzlseEVSN0NoQzJsLTRWS1Y1eVNmejFzVGpOY21ZUjNYODZRNFhpcGJiajczM1FHOUhjYVRIVUs?oc=5",
+      "source": "Newsroom | TikTok",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2024-12-17T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmic0fvx3lxtfatzujrndvgnlznsflkn2zsvmdbvuprt2fgqvphy0xatej5mxe2s",
+      "title": "Da TikTok a Treccani: 5 neologismi che identificano la cultura pop - TikTok Newsroom",
+      "summary": "Da TikTok a Treccani: 5 neologismi che identificano la cultura pop TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtZUJRNDVGNlZNSFlkN2ZSVmdBVUprT2FGQVpHY0xaTEJ5MXE2SXN3al9aRUV2VWtuVm9HSXlMT1dUdlZTSk9CZmkya1RVVHZOZGl5eHRpNi1zclVKMVR2SmsxdU5ZUDFVaWFhcjdVUVR5ZVk?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2024-12-13T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiy0fvx3lxte9ca1pod3hns1ziedrtbzrime1ttdj1odfise9nvm1vuf9uz0zhc",
+      "title": "TikTok per le aziende: guida completa - Shopify",
+      "summary": "TikTok per le aziende: guida completa Shopify",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Ca1pOd3hNS1ZIeDRtbzRiME1TTDJ1ODFiSE9nVm1VUF9UZ0ZHcGtudnFOOGZEYWRYVDltY29fUVEycXFvUUZSQi00WXV0dDRMajl5eTQ1NXdYQ05YdjRJbzNJaw?oc=5",
+      "source": "Shopify",
+      "category": "Vendita e business",
+      "confidence": "emerging",
+      "published_at": "2024-11-26T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmilafbvv95cuxnohdravbgdmryei1kmufrzm9jdldsmkfkofe2tmzbuwy2q3hyv",
+      "title": "NOW si aggiudica il Greatest TikTok con la campagna \"Commenti Indie\" - TikTok Newsroom",
+      "summary": "NOW si aggiudica il Greatest TikTok con la campagna \"Commenti Indie\" TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOHdraVBGdmRYei1KMUFrZm9JdldsMkFKOFE2TmZBUWY2Q3hyVmxTdkI4aWprUEFhMy14UzR4ZVdfTnhUMlVuQ0tZN0xWd0tfcFEyZ0tlRXpVa3NJNDhvVjN1UTFBOU1pZG4zMG5LTFhVQ3JZWHlaeDdhb0JMejhZeG00WVpObFloUnEtRFNzTXFoaUdr?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2024-11-14T08:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiz0fvx3lxte5hufhmqnbfbnrjuwlmqm5howjgr2zmdlplemnuz0deuzhxefo5z",
+      "title": "TikTok annuncia due importanti tappe del Progetto Clover, l'innovativo programma di sicurezza dei dati - TikTok Newsroom",
+      "summary": "TikTok annuncia due importanti tappe del Progetto Clover, l'innovativo programma di sicurezza dei dati TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hUFhmQnBFbnRJUWlmQm5HOWJGR2ZmdlpLemNUZ0dEUzhxeFo5Z2xNUExYU2Q3MzEyYUNQdVhQSzBaRWtOLUdfMU54R1VQcFZ5UTRpbWVHVXNyWnlHSVI5SGkwYjdSMUk?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2024-10-31T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiaefvx3lxte1yczr5lupvdjfbr2l5u2jqclbmwex1dwvvz3m3egvusxq4zjqxm",
+      "title": "TikTok Awards: l'Italia celebra la creatività della sua community. Al via le votazioni della prima edizione. - TikTok Newsroom",
+      "summary": "TikTok Awards: l'Italia celebra la creatività della sua community. Al via le votazioni della prima edizione. TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YczR5LUpVdjFBR2l5U2JQclBmWEx1dWVVZ3M3eGVUSXQ4ZjQxMWJJRTBQcXpPbFVqS0F1blBzb05GRElRNG5xTFdiYS01MW9fMV9sYS05ZXpBRmt5UUJDamozV3hOZU90?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2024-10-21T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmibefvx3lxte5yd0jvdun1we5urulsuglheeytanpqegrjdk12r3rtvtduemc1n",
+      "title": "“Moon Music”: su TikTok un’esclusiva esperienza per il nuovo album dei Coldplay - TikTok Newsroom",
+      "summary": "“Moon Music”: su TikTok un’esclusiva esperienza per il nuovo album dei Coldplay TikTok Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Yd0JVdUN1WE5URUlSUGlheEYtanpqeGRjdk12R3RTVTduemc1N09BbVpFdm51Qm5halhmcUJOS3FGUURDU1dmMVIzczdrV3FldlhCLWh2eDJhd0sxVTB0VXlOQXJoN0pNVXpqQQ?oc=5",
+      "source": "TikTok Newsroom",
+      "category": "Novità TikTok",
+      "confidence": "emerging",
+      "published_at": "2024-10-03T07:00:00Z"
+    }
+  ],
+  "source_note": "Public RSS search results; check the linked original source before publishing claims.",
+  "collection_warnings": []
 }
