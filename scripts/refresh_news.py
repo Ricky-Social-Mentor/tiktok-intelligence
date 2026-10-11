@@ -1,25 +1,30 @@
 #!/usr/bin/env python3
-"""Collect public Google News RSS searches into news.json."""
+"""Raccoglie notizie TikTok in italiano da feed RSS pubblici."""
 import json
 import re
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from html import unescape
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "news.json"
+# Query in italiano e categorie distinte per rendere il feed più leggibile.
 QUERIES = [
-    ("Novità TikTok", "site:newsroom.tiktok.com TikTok"),
-    ("Algoritmo e crescita", "TikTok algorithm creator tips growth"),
-    ("Trend e creator", "TikTok trends creators viral trend"),
-    ("Vendita e business", "TikTok Shop social commerce small business"),
+    ("Funzioni TikTok", 'site:newsroom.tiktok.com/it-IT OR site:newsroom.tiktok.com "funzione" OR "strumenti" TikTok'),
+    ("Aggiornamenti TikTok", 'TikTok aggiornamento novità piattaforma Italia'),
+    ("Trucchi e crescita", 'consigli TikTok creator crescere algoritmo contenuti'),
+    ("Trend e creator", 'tendenze TikTok creator virale Italia'),
+    ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
-HEADERS = {"User-Agent": "TikTokIntelligence/1.0 (public RSS reader)"}
+HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
+MAX_AGE_DAYS = 60
+ITALIAN_MARKERS = {"il", "lo", "la", "gli", "le", "un", "una", "di", "del", "della", "dei", "delle", "che", "per", "con", "su", "come", "nuovo", "nuova", "nuove", "aggiornamento", "funzioni", "creator", "tiktok"}
+ENGLISH_MARKERS = {"the", "and", "for", "with", "from", "how", "what", "why", "new", "latest", "tips", "guide", "trend", "trends", "households", "returning", "levels", "lead", "exclusive", "announces", "introduces", "update", "updates", "growth", "small", "business", "viral"}
 
 def clean(value):
     value = unescape(re.sub(r"<[^>]+>", " ", value or ""))
@@ -30,9 +35,16 @@ def parse_date(value):
         dt = parsedate_to_datetime(value)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+        return dt.astimezone(timezone.utc)
     except Exception:
         return None
+
+def italian_enough(title, summary):
+    words = set(re.findall(r"[a-zà-ÿ]+", (title + " " + summary).lower()))
+    it_score = len(words & ITALIAN_MARKERS)
+    en_score = len(words & ENGLISH_MARKERS)
+    # Titles mostly in English are excluded instead of shown untranslated.
+    return not (en_score >= 2 and en_score > it_score)
 
 def fetch(query, category):
     params = urllib.parse.urlencode({"q": query, "hl": "it", "gl": "IT", "ceid": "IT:it"})
@@ -41,27 +53,31 @@ def fetch(query, category):
     with urllib.request.urlopen(req, timeout=25) as response:
         root = ET.fromstring(response.read())
     found = []
+    now = datetime.now(timezone.utc)
     for item in root.findall("./channel/item"):
         title = clean(item.findtext("title", ""))
         link = (item.findtext("link", "") or "").strip()
         desc = clean(item.findtext("description", ""))
         source_el = item.find("source")
         source = clean(source_el.text if source_el is not None else "Google News")
-        pub = parse_date(item.findtext("pubDate", ""))
-        if not title or not link:
+        published = parse_date(item.findtext("pubDate", ""))
+        if not title or not link or not published:
             continue
-        # Google News redirects often obscure the publisher domain; avoid claiming official verification unless the URL clearly says so.
+        if published < now - timedelta(days=MAX_AGE_DAYS) or published > now + timedelta(days=1):
+            continue
+        if not italian_enough(title, desc):
+            continue
         host = urllib.parse.urlparse(link).netloc.lower()
         verified = any(host == domain or host.endswith("." + domain) for domain in OFFICIAL_DOMAINS)
         found.append({
             "id": re.sub(r"[^a-z0-9]+", "-", (link + title).lower()).strip("-")[:100],
             "title": title,
-            "summary": desc[:520],
+            "summary": desc[:360],
             "url": link,
             "source": source,
             "category": category,
             "confidence": "verified" if verified else "emerging",
-            "published_at": pub,
+            "published_at": published.isoformat(timespec="seconds").replace("+00:00", "Z"),
         })
     return found
 
@@ -74,18 +90,19 @@ def main():
             errors.append(f"{category}: {type(exc).__name__}")
     unique, seen = [], set()
     for item in sorted(items, key=lambda a: a.get("published_at") or "", reverse=True):
-        if item["url"] in seen:
+        key = item["url"]
+        if key in seen:
             continue
-        seen.add(item["url"])
+        seen.add(key)
         unique.append(item)
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
-        "articles": unique[:60],
-        "source_note": "Public RSS search results; check the linked original source before publishing claims.",
+        "articles": unique[:50],
+        "source_note": "Feed in italiano, limitato a contenuti recenti; apri la fonte originale per verificare i dettagli.",
         "collection_warnings": errors,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(payload['articles'])} articles; feed errors: {len(errors)}")
+    print(f"Wrote {len(payload['articles'])} Italian recent articles; feed errors: {len(errors)}")
 
 if __name__ == "__main__":
     main()
