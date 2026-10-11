@@ -70,10 +70,11 @@ def is_relevant(title, summary):
     # Scarta titoli di cronaca non utili a creare contenuti, anche se citano TikTok.
     if any(marker in title_text for marker in OFF_TOPIC_MARKERS):
         return False
+    has_tiktok_mention = "tiktok" in full_text
     title_has_signal = any(marker in title_text for marker in TITLE_RELEVANCE_MARKERS)
     topic_hits = sum(1 for marker in TOPIC_MARKERS if marker in full_text)
-    # La sola parola TikTok non rende pertinente una notizia: serve un tema da creator.
-    return title_has_signal and topic_hits >= 1
+    # Servono sia un riferimento esplicito a TikTok sia un tema utile ai creator nel titolo.
+    return has_tiktok_mention and title_has_signal and topic_hits >= 1
 
 def fetch(query, category):
     params = urllib.parse.urlencode({"q": query, "hl": "it", "gl": "IT", "ceid": "IT:it"})
