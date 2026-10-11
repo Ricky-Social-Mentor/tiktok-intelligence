@@ -21,6 +21,7 @@ QUERIES = [
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
+RELEVANCE_MARKERS = {"tiktok", "tik tok", "creator", "creatori", "video brevi", "short video", "social network", "social media", "tiktok shop", "reel", "reels"}
 HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
 MAX_AGE_DAYS = 60
 ITALIAN_MARKERS = {"il", "lo", "la", "gli", "le", "un", "una", "di", "del", "della", "dei", "delle", "che", "per", "con", "su", "come", "nuovo", "nuova", "nuove", "aggiornamento", "funzioni", "creator", "tiktok"}
@@ -46,6 +47,10 @@ def italian_enough(title, summary):
     # Titles mostly in English are excluded instead of shown untranslated.
     return not (en_score >= 2 and en_score > it_score)
 
+def is_relevant(title, summary):
+    text = (title + " " + summary).lower().replace("tik tok", "tiktok")
+    return any(marker in text for marker in RELEVANCE_MARKERS)
+
 def fetch(query, category):
     params = urllib.parse.urlencode({"q": query, "hl": "it", "gl": "IT", "ceid": "IT:it"})
     url = "https://news.google.com/rss/search?" + params
@@ -60,21 +65,23 @@ def fetch(query, category):
         desc = clean(item.findtext("description", ""))
         source_el = item.find("source")
         source = clean(source_el.text if source_el is not None else "Google News")
+        source_url = (source_el.attrib.get("url", "") if source_el is not None else "").strip()
+        source_host = urllib.parse.urlparse(source_url).netloc.lower()
         published = parse_date(item.findtext("pubDate", ""))
         if not title or not link or not published:
             continue
         if published < now - timedelta(days=MAX_AGE_DAYS) or published > now + timedelta(days=1):
             continue
-        if not italian_enough(title, desc):
+        if not italian_enough(title, desc) or not is_relevant(title, desc):
             continue
-        host = urllib.parse.urlparse(link).netloc.lower()
-        verified = any(host == domain or host.endswith("." + domain) for domain in OFFICIAL_DOMAINS)
+        verified = any(source_host == domain or source_host.endswith("." + domain) for domain in OFFICIAL_DOMAINS)
         found.append({
             "id": re.sub(r"[^a-z0-9]+", "-", (link + title).lower()).strip("-")[:100],
             "title": title,
             "summary": desc[:360],
             "url": link,
             "source": source,
+            "source_url": source_url,
             "category": category,
             "confidence": "verified" if verified else "emerging",
             "published_at": published.isoformat(timespec="seconds").replace("+00:00", "Z"),
