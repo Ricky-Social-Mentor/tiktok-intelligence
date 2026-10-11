@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Test news relevance filters
+        run: python3 -m unittest discover -s tests -v
       - name: Collect public RSS feeds
         run: python3 scripts/refresh_news.py
       - name: Commit feed when changed
