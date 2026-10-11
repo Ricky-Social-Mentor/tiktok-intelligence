@@ -25,6 +25,7 @@ QUERIES = [
     ("Guide social", 'site:socialmediatoday.com TikTok creator video marketing'),
     ("Creator marketing", 'site:later.com/blog TikTok creator tips trends'),
     ("TikTok ufficiale", 'site:newsroom.tiktok.com/it-IT TikTok creator strumenti contenuti'),
+    ("IA e strumenti ufficiali", 'site:newsroom.tiktok.com/it-IT TikTok IA inserzionisti strumenti campagne creator 2026'),
     ("Vendita e business", 'TikTok Shop vendere aziende piccole attività Italia'),
     ("Creator italiani", 'TikTok creator italiani consigli contenuti strategie social media'),
     ("Video e retention", 'TikTok durata video retention completamento visualizzazioni creator Italia'),
