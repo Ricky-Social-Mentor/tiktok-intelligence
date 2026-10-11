@@ -22,6 +22,12 @@ class RelevanceFilterTests(unittest.TestCase):
             "La notizia descrive un caso di cronaca."
         ))
 
+    def test_tiktok_creator_growth_advice_is_relevant(self):
+        self.assertTrue(is_relevant(
+            "TikTok: strategie per crescere e migliorare l'engagement",
+            "Consigli per creator e contenuti."
+        ))
+
     def test_tiktok_shop_business_topic_is_relevant(self):
         self.assertTrue(is_relevant(
             "TikTok Shop: nuove opportunità per vendere online",
