@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T15:55:40Z",
+  "updated_at": "2026-10-11T16:00:00Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmi6gfbvv95cuxouk9yogvmqkvheezfdxfpcndqug5bulizd0s4rkkxbjlwz1h2c",
@@ -11,6 +11,17 @@
       "category": "Vendita e business",
       "confidence": "emerging",
       "published_at": "2026-10-09T04:46:06Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmirgfbvv95cuxpcmhqmm83dlkyyjl0t0m0chrem0nzoxn6c3nqbzjvafhrx2ffq",
+      "title": "La rivoluzione dei commenti su TikTok: arrivano vocali e sondaggi - Italia Report USA",
+      "summary": "La rivoluzione dei commenti su TikTok: arrivano vocali e sondaggi Italia Report USA",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcmhqMm83dlkyYjl0T0M0cHREM0NzOXN6c3NqbzJvaFhRX2FfQWcyRjZERVJjMFlxMnk5dFBuVFoycmpLQW1pSnBoTERMdWtsRkJqNk01UV9rak5zWjZXNWVBSlZ6NHBISEh4SFdTNmN6a3BHMldLV3AtOWQ5VWxkVExUQnhiaXhhcVNPTm91Y0psSU4zYUJaVFd3azJDZmxNMVBwS0tGczBDWVBxemfSAbMBQVVfeXFMTUhpM1hwcmVEX2ZrZ2lDUEtqVnFUNW1ZdGJIdzhxeUtPdDlva2dySmFtaGp5cmIxRXZ0REtMbWtHXzVDLWlFQkFWckxxVW80RDRqT0ZjZE8tXzBCQVpUUnFkVGpMY2N5ODQ1S0RTUkIxcHF4dFVmVjFJaWQ2eGJhMFM5MzlsRTg2ZEc5T1g2R29UbWtKNWpZVlc3WmZyZXlRNzBGZlJjNU9ibWMzeVNKOTdIUm8?oc=5",
+      "source": "Italia Report USA",
+      "source_url": "https://www.italiareportusa.com",
+      "category": "Creator e strumenti",
+      "confidence": "emerging",
+      "published_at": "2026-09-04T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte95tg1xylz5utvss09omnjtdvrjeuflq0jnwhpvnelfnf9zrhvrv",
