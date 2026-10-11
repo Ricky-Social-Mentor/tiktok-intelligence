@@ -28,6 +28,12 @@ class RelevanceFilterTests(unittest.TestCase):
             "Strumenti di vendita e monetizzazione per attività."
         ))
 
+    def test_topic_headline_without_tiktok_mention_is_filtered(self):
+        self.assertFalse(is_relevant(
+            "Esprimiti nei commenti: nuove funzioni Voce, Sondaggi e Caroselli",
+            "Nuovi strumenti di community."
+        ))
+
     def test_english_headline_is_filtered(self):
         self.assertFalse(italian_enough(
             "TikTok announces new creator tools and updates",
