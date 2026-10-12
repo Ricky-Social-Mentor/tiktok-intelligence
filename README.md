@@ -7,6 +7,10 @@ Dashboard in italiano per monitorare notizie TikTok e trasformarle in bozze vide
 - Ricerca e filtri per categoria e tipo di fonte.
 - Bozza video con hook iniziale, testo a schermo, parlato, keyword SEO, caption e CTA.
 - Salvataggio delle notizie nel browser usato.
+- Archivio locale di esempi video pubblici con filtro per nicchia, ordinamento, analisi descrittiva dei pattern e rimozione dei duplicati.
+- Importazione/esportazione dell'archivio di ricerca in JSON e CSV.
+- Laboratorio SEO iniziale per generare bozze da rivedere manualmente.
+- Piano operativo: [prossimi 10 obiettivi](docs/roadmap-10-obiettivi.md).
 - Raccolta RSS tramite GitHub Actions, programmata ogni sei ore e avviabile manualmente.
 
 ## Pubblicazione gratuita con GitHub Pages
