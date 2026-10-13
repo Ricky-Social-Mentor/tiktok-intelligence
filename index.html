@@ -101,7 +101,7 @@ function generateSeoDraft(){
  story:'Apri con una difficoltà reale. Racconta cosa hai provato. Condividi la lezione utile e il passo successivo.'
  };
  const cta={awareness:'Salva il video se vuoi ripartire da questi passaggi.',trust:'Quale passaggio vuoi che approfondisca con un esempio?',leads:'Se vuoi applicarlo al tuo progetto, scrivimi quale risultato cerchi.'};
- const keywords=topic.toLowerCase().replace(/[.,!?;:]/g,'').split(/\\s+/).filter(w=>w.length>3).slice(0,5);
+ const keywords=topic.toLowerCase().replace(/[.,!?;:]/g,'').split(/\s+/).filter(w=>w.length>3).slice(0,5);
  const caption=topic+' : un passaggio alla volta, con esempi concreti e senza promesse facili.';
  const research=vrRead();
  const topicTerms=topic.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').match(/[a-z0-9]{4,}/g)||[];
@@ -110,7 +110,7 @@ function generateSeoDraft(){
   return topicTerms.some(w=>text.includes(w));
  }).slice(0,3);
  const parts=[['OBIETTIVO',({awareness:'Farti conoscere',trust:'Costruire fiducia',leads:'Ricevere richieste'})[goal]],['HOOK · primi 3 secondi',hooks[goal]],['SCALETTA / PARLATO',outline[format]],['KEYWORD DA VALIDARE',keywords.join(', ')+' · controlla le frasi cercate nel Creative Center e nella ricerca TikTok'],['CAPTION',caption],['CTA',cta[goal]],['CONTROLLO PRIMA DI PUBBLICARE','Verifica che l’esempio sia corretto, aggiungi una prova concreta e leggi il testo ad alta voce. La keyword deve comparire naturalmente, non ripetersi forzatamente.'],...(matches.length?[['SPUNTI DAI TUOI ESEMPI SALVATI',matches.map(x=>'• '+(x.niche||'Nicchia')+': '+x.hook+(x.format?' ['+x.format+']':'')).join('\\n')+' · Riferimenti descrittivi, non una previsione di performance.']]:[])];
- window.currentSeoDraft=parts.map(p=>p[0]+'\\n'+p[1]).join('\\n\\n');
+ window.currentSeoDraft=parts.map(p=>p[0]+'\n'+p[1]).join('\n\n');
  $('seoOutput').innerHTML=parts.map(p=>'<section class="scriptpart"><h3>'+esc(p[0])+'</h3><p>'+esc(p[1])+'</p></section>').join('');
  $('copySeo').disabled=false;
 }
