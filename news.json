@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T18:57:36Z",
+  "updated_at": "2026-10-15T00:57:17Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpu2pqdm9rtwn5te10zenrrth6nhjun0z3tg9zx2s3unlfvwjqb",
@@ -66,6 +66,17 @@
       "category": "Vendita e business",
       "confidence": "emerging",
       "published_at": "2026-08-23T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmihafbvv95cuxpuktit2z0r2txwezizmdtv3q2ykpvd0cxsktwddvqq1q0rutov",
+      "title": "Fibermaxxing: cosa c’è di vero nel trend virale delle fibre su TikTok - Dossier Salute",
+      "summary": "Fibermaxxing: cosa c’è di vero nel trend virale delle fibre su TikTok Dossier Salute",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUktIT2Z0R2tXWEZIZmdTV3Q2Ykpvd0cxSktWdDVQQ1Q0RUtOVVBTZjFqRFNFVnd6QXdqVDVGNGVNXzJuNnRPNGl4dC1jR1R1cGI5R0Y3cl9yckVXVWtvd09YMmY3eDZCNHU1R2YyNkk5LTBoZzBpdE1XY1RmRHpzRTZNakg?oc=5",
+      "source": "Dossier Salute",
+      "source_url": "https://www.dossiersalute.com",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-08-02T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxomdhhoxfmx2oxcw5mtfety1rlcthcaly1lu5ls19qmepjz3vzv",
