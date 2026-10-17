@@ -29,3 +29,10 @@ Dashboard in italiano per monitorare notizie TikTok e trasformarle in bozze vide
 Le voci non riconosciute come provenienti direttamente da un dominio TikTok ufficiale sono etichettate **Trend / da verificare**. I collegamenti Google News possono nascondere il dominio finale dell'editore: controlla sempre la pagina originale prima di presentare una notizia come confermata.
 
 Le idee video sono bozze da personalizzare, non garanzie di visualizzazioni. Progetto indipendente, non affiliato a TikTok.
+
+## Controlli pratici prima di usare una bozza
+1. Inserisci un argomento specifico nel laboratorio SEO e verifica che appaiano obiettivo, hook, alternative, scaletta, keyword, caption, CTA e checklist.
+2. Prova **Copia bozza** e, se disponibile, **Copia solo il parlato**; se il browser blocca gli appunti, seleziona e copia il testo manualmente.
+3. Aggiungi all'archivio un esempio pubblico della nicchia scelta e genera una bozza sullo stesso tema: gli spunti salvati devono comparire solo quando ci sono parole pertinenti.
+4. Ricarica la pagina e controlla che l'archivio sia ancora presente nello stesso browser. I dati sono locali e non vengono sincronizzati automaticamente tra dispositivi.
+5. Verifica manualmente le fonti, le date, i diritti di audio/immagini e la pertinenza delle keyword prima di pubblicare. La compilazione GitHub Pages non equivale a un test interattivo completo nel browser.
