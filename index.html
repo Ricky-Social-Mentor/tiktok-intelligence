@@ -96,6 +96,11 @@ function generateSeoDraft(){
  leads:'Se vuoi migliorare '+topic.toLowerCase()+' per la tua attività, controlla prima questi passaggi.'
  };
  const hookAlternatives={awareness:['Prima di pubblicare su TikTok, controlla questo su '+topic.toLowerCase(),'L’errore più comune con '+topic.toLowerCase(),'Se ti blocchi su '+topic.toLowerCase()+', prova questo passaggio.'],trust:['Ti mostro un metodo semplice per '+topic.toLowerCase(),'Un esempio pratico per capire '+topic.toLowerCase(),'Ecco cosa controllare davvero su '+topic.toLowerCase()],leads:['Vuoi migliorare '+topic.toLowerCase()+'? Parti da qui.','Se ti serve aiuto con '+topic.toLowerCase()+', verifica prima questo punto.','Per migliorare '+topic.toLowerCase()+', evita questo errore comune.']};
+ const hookAlternatives={
+ awareness:['L’errore che ti fa perdere tempo con '+topic.toLowerCase(),'Prima di pubblicare su TikTok, controlla questo su '+topic.toLowerCase(),'Se ti blocchi su '+topic.toLowerCase()+', prova questo passaggio.'],
+ trust:['Ti mostro un metodo semplice per '+topic.toLowerCase(),'Un esempio pratico per capire '+topic.toLowerCase(),'Ecco cosa controllare davvero quando lavori su '+topic.toLowerCase()],
+ leads:['Vuoi ottenere un risultato migliore con '+topic.toLowerCase()+'? Parti da qui.','Se ti serve aiuto con '+topic.toLowerCase()+', verifica prima questo punto.','Per migliorare '+topic.toLowerCase()+', evita questo errore comune.']
+ };
  const outline={
  talk:'Spiega il problema in una frase. Dai 2 consigli concreti. Chiudi con un esempio applicabile oggi.',
  tutorial:'Mostra il risultato finale. Dimostra il primo passaggio. Fai vedere il secondo. Riepiloga l’errore da evitare.',
@@ -110,7 +115,7 @@ function generateSeoDraft(){
   const text=[x.niche||'',x.hook||'',x.note||''].join(' ').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
   return topicTerms.some(w=>text.includes(w));
  }).slice(0,3);
- const parts=[['OBIETTIVO',({awareness:'Farti conoscere',trust:'Costruire fiducia',leads:'Ricevere richieste'})[goal]],['HOOK · primi 3 secondi',hooks[goal]+'\n\nAltre 3 aperture da provare:\n'+hookAlternatives[goal].map((h,i)=>(i+1)+'. '+h).join('\n')],['SCALETTA / PARLATO',outline[format]],['KEYWORD DA VALIDARE',keywords.join(', ')+' · controlla le frasi cercate nel Creative Center e nella ricerca TikTok'],['CAPTION',caption],['CTA',cta[goal]],['CONTROLLO PRIMA DI PUBBLICARE','Controlla: hook chiaro nei primi 3 secondi; esempio concreto; keyword naturale; CTA coerente con l’obiettivo; informazioni e diritti su audio e immagini verificati.'],...(matches.length?[['SPUNTI DAI TUOI ESEMPI SALVATI',matches.map(x=>'• '+(x.niche||'Nicchia')+': '+x.hook+(x.format?' ['+x.format+']':'')).join('\\n')+' · Riferimenti descrittivi, non una previsione di performance.']]:[])];
+ const parts=[['OBIETTIVO',({awareness:'Farti conoscere',trust:'Costruire fiducia',leads:'Ricevere richieste'})[goal]],['HOOK · primi 3 secondi',hooks[goal]+'\n\nAltre 3 aperture da provare:\n'+hookAlternatives[goal].map((h,i)=>(i+1)+'. '+h).join('\n')],['SCALETTA / PARLATO',outline[format]],['KEYWORD DA VALIDARE',keywords.join(', ')+' · controlla le frasi cercate nel Creative Center e nella ricerca TikTok'],['RICERCA DEL TEMA','Confronta i risultati pubblici su TikTok e verifica nicchia e periodo prima di scegliere l’angolo.'],['CAPTION',caption],['CTA',cta[goal]],['CONTROLLO PRIMA DI PUBBLICARE','Controlla: hook chiaro nei primi 3 secondi; esempio concreto; keyword naturale; CTA coerente con l’obiettivo; informazioni e diritti su audio e immagini verificati.'],...(matches.length?[['SPUNTI DAI TUOI ESEMPI SALVATI',matches.map(x=>'• '+(x.niche||'Nicchia')+': '+x.hook+(x.format?' ['+x.format+']':'')).join('\\n')+' · Riferimenti descrittivi, non una previsione di performance.']]:[])];
  window.currentSeoDraft=parts.map(p=>p[0]+'\n'+p[1]).join('\n\n');
  $('seoOutput').innerHTML=parts.map(p=>'<section class="scriptpart"><h3>'+esc(p[0])+'</h3><p>'+esc(p[1])+'</p></section>').join('');
  $('copySeo').disabled=false;
