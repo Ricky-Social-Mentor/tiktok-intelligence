@@ -114,7 +114,12 @@ function generateSeoDraft(){
   const text=[x.niche||'',x.hook||'',x.note||''].join(' ').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
   return topicTerms.some(w=>text.includes(w));
  }).sort((a,b)=>{
-  const score=x=>topicTerms.reduce((n,w)=>n+([x.niche||'',x.hook||'',x.note||''].join(' ').toLowerCase().includes(w)?1:0),0);
+  const score=x=>{
+   const niche=(x.niche||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
+   const hook=(x.hook||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
+   const note=(x.note||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
+   return topicTerms.reduce((n,w)=>n+(niche.includes(w)?3:0)+(hook.includes(w)?2:0)+(note.includes(w)?1:0),0);
+  };
   return score(b)-score(a);
  }).slice(0,3);
  const parts=[['OBIETTIVO',({awareness:'Farti conoscere',trust:'Costruire fiducia',leads:'Ricevere richieste'})[goal]],['HOOK · primi 3 secondi',hooks[goal]+'\n\nAltre 3 aperture da provare:\n'+hookAlternatives[goal].map((h,i)=>(i+1)+'. '+h).join('\n')],['SCALETTA / PARLATO',outline[format]],['KEYWORD DA VALIDARE',keywords.join(', ')+' · controlla le frasi cercate nel Creative Center e nella ricerca TikTok'],['RICERCA DEL TEMA','Confronta i risultati pubblici su TikTok e verifica nicchia e periodo prima di scegliere l’angolo.'],['CAPTION',caption],['CTA',cta[goal]],['CONTROLLO PRIMA DI PUBBLICARE','Controlla: hook chiaro nei primi 3 secondi; esempio concreto; keyword naturale; CTA coerente con l’obiettivo; informazioni e diritti su audio e immagini verificati.'],...(matches.length?[['SPUNTI DAI TUOI ESEMPI SALVATI',matches.map(x=>'• '+(x.niche||'Nicchia')+': '+x.hook+(x.format?' ['+x.format+']':'')).join('\\n')+' · Riferimenti descrittivi, non una previsione di performance.']]:[])];
