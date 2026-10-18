@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T18:45:46Z",
+  "updated_at": "2026-10-18T00:58:39Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpu2pqdm9rtwn5te10zenrrth6nhjun0z3tg9zx2s3unlfvwjqb",
@@ -55,6 +55,17 @@
       "category": "TikTok Shop ufficiale",
       "confidence": "emerging",
       "published_at": "2026-09-21T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxncjiwm29dvwpuyvhsevlazf9vc3pwehf6bzvlsfy5c1yztzi5q",
+      "title": "Cos'è l'Agente IA di affiliazione - TikTok",
+      "summary": "Cos'è l'Agente IA di affiliazione TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcjIwM29DVWpUYVhseVlaZF9Vc3pweHF6bzVLSFY5c1YzTzI5QjdqSjVtNTF2ZmFuMDIzZWp6a3lRSmt4NWRodkgyOVl6eVcyTWJ5dEdGQmV3TTFCRDRwVVdlc3p6TEcxbzdjUkxXTnlxdHE2OXpkRkNOdTdrOGd1Yw?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "emerging",
+      "published_at": "2026-09-20T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte95tg1xylz5utvss09omnjtdvrjeuflq0jnwhpvnelfnf9zrhvrv",
