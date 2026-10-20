@@ -1,4 +1,9 @@
 import unittest
+from html.parser import HTMLParser
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
 
 from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles
 
@@ -86,3 +91,56 @@ class RelevanceFilterTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class DashboardScriptTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.html = (Path(__file__).resolve().parents[1] / "index.html").read_text(encoding="utf-8")
+
+    def test_saved_example_matching_ignores_generic_terms(self):
+        self.assertIn("topicStopWords", self.html)
+        self.assertIn("filter(w=>!topicStopWords.has(w))", self.html)
+
+    def test_saved_example_text_uses_real_line_breaks(self):
+        self.assertIn(".join('\\n')", self.html)
+        self.assertNotIn(".join('\\\\n')", self.html)
+
+    def test_inline_javascript_syntax(self):
+        node = shutil.which("node")
+        if not node:
+            self.skipTest("Node.js non disponibile nell'ambiente di test")
+
+        class ScriptParser(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.in_inline_script = False
+                self.current = []
+                self.scripts = []
+
+            def handle_starttag(self, tag, attrs):
+                if tag == "script" and not dict(attrs).get("src"):
+                    self.in_inline_script = True
+                    self.current = []
+
+            def handle_data(self, data):
+                if self.in_inline_script:
+                    self.current.append(data)
+
+            def handle_endtag(self, tag):
+                if tag == "script" and self.in_inline_script:
+                    code = "".join(self.current).strip()
+                    if code:
+                        self.scripts.append(code)
+                    self.in_inline_script = False
+                    self.current = []
+
+        parser = ScriptParser()
+        parser.feed(self.html)
+        self.assertTrue(parser.scripts, "Nessuno script inline trovato")
+        with tempfile.TemporaryDirectory() as tmp:
+            for index, code in enumerate(parser.scripts):
+                script_path = Path(tmp) / f"inline-{index}.js"
+                script_path.write_text(code, encoding="utf-8")
+                result = subprocess.run([node, "--check", str(script_path)], capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr or result.stdout)
