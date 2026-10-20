@@ -79,7 +79,8 @@ const parts=[
 ['CALL TO ACTION',cta],
 ['FONTE E VERIFICA',(a.source||'Fonte non specificata')+'\n'+(a.url||a.source_url||'')+'\nData indicata: '+fmt(a.published_at)+'. Verifica la pagina originale e la disponibilità nel tuo account prima di presentare dettagli come confermati.']
 ];
-currentScript=parts.map(p=>p[0]+'\n'+p[1]).join('\n\n');\ncurrentSpoken=hook+'\\n\\n'+spoken;
+currentScript=parts.map(p=>p[0]+'\n'+p[1]).join('\n\n');
+currentSpoken=hook+'\n\n'+spoken;
 $('modalTitle').textContent='Idea video da personalizzare';
 $('modalSubtitle').textContent=a.title;
 $('script').innerHTML=parts.map(p=>'<section class="scriptpart"><h3>'+esc(p[0])+'</h3><p>'+esc(p[1])+'</p></section>').join('');
