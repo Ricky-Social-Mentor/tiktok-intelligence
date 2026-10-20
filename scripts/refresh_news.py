@@ -67,6 +67,8 @@ OFF_TOPIC_MARKERS = (
     "termini di servizio", "politica sui contenuti", "politica sulle recensioni",
     "stipendio", "laureati", "senza esperienza", "offerte di lavoro",
     "annuncio di lavoro", "annunci di lavoro", "assume laureati",
+    "recensioni dei clienti importate", "recensioni importate",
+    "dichiarazione di tiktok shop sulle recensioni",
 )
 HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
 MAX_AGE_DAYS = 90
