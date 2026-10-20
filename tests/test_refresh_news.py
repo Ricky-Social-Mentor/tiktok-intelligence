@@ -5,10 +5,18 @@ import shutil
 import subprocess
 import tempfile
 
-from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles
+from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES
 
 
 class RelevanceFilterTests(unittest.TestCase):
+    def test_trend_seo_and_retention_queries_prioritize_recent_results(self):
+        recent_categories = {"Trend e creator", "Strategia contenuti", "Crescita pratica",
+                             "Trend social italiani", "Ricerca TikTok", "Video e retention"}
+        query_map = dict(QUERIES)
+        for category in recent_categories:
+            with self.subTest(category=category):
+                self.assertIn("when:30d", query_map[category])
+
     def test_creator_update_is_relevant(self):
         self.assertTrue(is_relevant(
             "TikTok introduce nuove funzioni per i creator",
