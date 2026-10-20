@@ -62,6 +62,11 @@ TOPIC_MARKERS = (
 OFF_TOPIC_MARKERS = (
     "autolesion", "omicidio", "arrestat", "polizia", "incidente",
     "insultano", "insulto", "allarme", "tragedia", "morto", "morta",
+    # Documenti amministrativi e annunci di lavoro non aiutano direttamente
+    # a creare video, crescere come creator o sviluppare una strategia social.
+    "termini di servizio", "politica sui contenuti", "politica sulle recensioni",
+    "stipendio", "laureati", "senza esperienza", "offerte di lavoro",
+    "annuncio di lavoro", "annunci di lavoro", "assume laureati",
 )
 HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
 MAX_AGE_DAYS = 90
