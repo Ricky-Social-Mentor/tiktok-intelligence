@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T07:00:46Z",
+  "updated_at": "2026-10-20T13:00:27Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpu2pqdm9rtwn5te10zenrrth6nhjun0z3tg9zx2s3unlfvwjqb",
@@ -32,7 +32,7 @@
       "source_url": "https://newsroom.tiktok.com",
       "category": "Funzioni TikTok",
       "confidence": "verified",
-      "published_at": "2026-10-06T01:19:20Z"
+      "published_at": "2026-10-05T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxocwhqanndodbzmfe0b2noawdnstq4dwfqzc1kdlz5rvvzs1pxv",
@@ -66,6 +66,17 @@
       "category": "TikTok Shop ufficiale",
       "confidence": "emerging",
       "published_at": "2026-09-20T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmif0fvx3lxte1kus13reprwk16yxdlmvq3ulpfcwjwodzudwlqv1jhsf9tq09ta",
+      "title": "Spiegazione delle affermazioni fuorvianti: Cosa devono sapere i creatori - TikTok",
+      "summary": "Spiegazione delle affermazioni fuorvianti: Cosa devono sapere i creatori TikTok",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KUS13REpRWk16YXdlMVQ3UlpFcWJwODZudWlQV1JHSF9TQ09tay1LamdybWh0SXZWa1dxdDJ6SXZhY04zS3dvbldHb2ZwME5hbmRGNktwTGFTVTVYMnJ5bjNaWEZxNHZBX3hJWXVVZzBkQUM2aHZ2aUs3LUw0WHM?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "emerging",
+      "published_at": "2026-09-17T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmidkfvx3lxte95tg1xylz5utvss09omnjtdvrjeuflq0jnwhpvnelfnf9zrhvrv",
