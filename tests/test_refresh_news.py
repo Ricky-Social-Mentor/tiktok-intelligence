@@ -27,6 +27,22 @@ class RelevanceFilterTests(unittest.TestCase):
             "La notizia descrive un caso di cronaca."
         ))
 
+    def test_legal_shop_documents_are_excluded(self):
+        self.assertFalse(is_relevant(
+            "UE: Termini di Servizio del Venditore di TikTok Shop",
+            "Documento ufficiale con condizioni per i venditori."
+        ))
+        self.assertFalse(is_relevant(
+            "Politica sui contenuti del TikTok Shop EU",
+            "Regole ufficiali per la piattaforma."
+        ))
+
+    def test_job_advertisements_are_excluded(self):
+        self.assertFalse(is_relevant(
+            "TikTok assume laureati senza esperienza a Milano: stipendio 33.600 euro",
+            "Offerta di lavoro per laureati."
+        ))
+
     def test_tiktok_creator_growth_advice_is_relevant(self):
         self.assertTrue(is_relevant(
             "TikTok: strategie per crescere e migliorare l'engagement",
