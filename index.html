@@ -109,7 +109,8 @@ function generateSeoDraft(){
  const keywords=topic.toLowerCase().replace(/[.,!?;:]/g,'').split(/\s+/).filter(w=>w.length>3).slice(0,5);
  const caption=topic+' : un passaggio alla volta, con esempi concreti e senza promesse facili.';
  const research=vrRead();
- const topicTerms=topic.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').match(/[a-z0-9]{4,}/g)||[];
+ const topicStopWords=new Set(['come','cosa','quale','quali','dove','quando','perche','video','tiktok','fare','fatto','sono','della','delle','degli','dello','dalla','dalle','dallo','dentro','questo','questa','questi','queste','anche','molto','molta','molti','molte','senza','sulle','sulla','sullo','dopo','prima','ogni','alla','alle','allo','agli','dell','dall','nell','sull']);
+ const topicTerms=(topic.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').match(/[a-z0-9]{4,}/g)||[]).filter(w=>!topicStopWords.has(w));
  const matches=research.filter(x=>{
   const text=[x.niche||'',x.hook||'',x.note||''].join(' ').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
   return topicTerms.some(w=>text.includes(w));
