@@ -43,6 +43,12 @@ class RelevanceFilterTests(unittest.TestCase):
             "Offerta di lavoro per laureati."
         ))
 
+    def test_imported_customer_review_policy_notice_is_excluded(self):
+        self.assertFalse(is_relevant(
+            "Dichiarazione di TikTok Shop sulle recensioni dei clienti importate UE/Regno Unito",
+            "Informazione amministrativa sulle recensioni importate."
+        ))
+
     def test_tiktok_creator_growth_advice_is_relevant(self):
         self.assertTrue(is_relevant(
             "TikTok: strategie per crescere e migliorare l'engagement",
