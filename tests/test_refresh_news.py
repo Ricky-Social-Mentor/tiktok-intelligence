@@ -89,10 +89,6 @@ class RelevanceFilterTests(unittest.TestCase):
         self.assertEqual(result[0]["confidence"], "verified")
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class DashboardScriptTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -144,3 +140,7 @@ class DashboardScriptTests(unittest.TestCase):
                 script_path.write_text(code, encoding="utf-8")
                 result = subprocess.run([node, "--check", str(script_path)], capture_output=True, text=True)
                 self.assertEqual(result.returncode, 0, result.stderr or result.stdout)
+
+
+if __name__ == "__main__":
+    unittest.main()
