@@ -6,12 +6,15 @@ import shutil
 import subprocess
 import tempfile
 
-from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS, is_recent
+from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS, OFFICIAL_DOMAINS, is_recent
 
 
 class RelevanceFilterTests(unittest.TestCase):
     def test_feed_age_limit_is_sixty_days(self):
         self.assertEqual(MAX_AGE_DAYS, 60)
+
+    def test_tiktok_owned_domains_are_official_sources(self):
+        self.assertIn("tiktok.com", OFFICIAL_DOMAINS)
 
     def test_recent_filter_keeps_exact_cutoff_and_rejects_older_items(self):
         now = datetime(2026, 10, 21, 12, 0, tzinfo=timezone.utc)
