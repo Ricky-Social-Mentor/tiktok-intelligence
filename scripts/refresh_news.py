@@ -35,6 +35,13 @@ QUERIES = [
     ("Strumenti per video", 'TikTok editor video sottotitoli montaggio creator Italia'),
     ("Community e commenti", 'TikTok community commenti risposte creator nuove funzioni Italia'),
     ("Trend social italiani", 'TikTok trend audio format creator social media Italia questa settimana when:30d'),
+    # Query mirate e recenti su fonti italiane/ufficiali: ampliano il feed senza
+    # restringere tutte le ricerche esistenti e rischiare di lasciarlo vuoto.
+    ("Novità ufficiali recenti", 'site:newsroom.tiktok.com/it-IT TikTok creator strumenti funzioni when:30d'),
+    ("Marketing italiano recente", 'site:engage.it TikTok creator influencer marketing when:30d'),
+    ("Social media Italia recente", 'site:ninja.it TikTok creator social media marketing when:30d'),
+    ("Imprese e creator recenti", 'site:startupitalia.eu TikTok creator social commerce when:30d'),
+    ("SEO creator recente", 'TikTok SEO ricerca creator parole chiave video Italia when:30d'),
     ("Creator economy", 'TikTok economia creator guadagnare collaborazioni Italia'),
     ("Fonti social italiane", 'site: punto-informatico.it TikTok creator aggiornamento'),
     ("Marketing digitale", 'site: ninja.it TikTok creator social media marketing'),
