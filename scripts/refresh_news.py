@@ -48,6 +48,13 @@ QUERIES = [
     ("Creator e formazione", 'site: engage.it TikTok creator influencer marketing'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com", "tiktok.com")
+
+
+def is_official_source(source_url):
+    """True only for TikTok-owned domains, including their subdomains."""
+    source_host = urllib.parse.urlparse(source_url).hostname or ""
+    source_host = source_host.lower().rstrip(".")
+    return any(source_host == domain or source_host.endswith("." + domain) for domain in OFFICIAL_DOMAINS)
 # Segnali distinti: una semplice menzione di TikTok nella descrizione non basta.
 TITLE_RELEVANCE_MARKERS = (
     "tiktok shop", "creator economy", "creator", "creatori",
@@ -143,7 +150,7 @@ def fetch(query, category):
             continue
         if not italian_enough(title, desc) or not is_relevant(title, desc):
             continue
-        verified = any(source_host == domain or source_host.endswith("." + domain) for domain in OFFICIAL_DOMAINS)
+        verified = is_official_source(source_url)
         found.append({
             "id": re.sub(r"[^a-z0-9]+", "-", (link + title).lower()).strip("-")[:100],
             "title": title,
