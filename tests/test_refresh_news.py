@@ -11,7 +11,10 @@ from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, de
 class RelevanceFilterTests(unittest.TestCase):
     def test_trend_seo_and_retention_queries_prioritize_recent_results(self):
         recent_categories = {"Trend e creator", "Strategia contenuti", "Crescita pratica",
-                             "Trend social italiani", "Ricerca TikTok", "Video e retention"}
+                             "Trend social italiani", "Ricerca TikTok", "Video e retention",
+                             "Novità ufficiali recenti", "Marketing italiano recente",
+                             "Social media Italia recente", "Imprese e creator recenti",
+                             "SEO creator recente"}
         query_map = dict(QUERIES)
         for category in recent_categories:
             with self.subTest(category=category):
