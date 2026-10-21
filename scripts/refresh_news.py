@@ -47,7 +47,7 @@ QUERIES = [
     ("Marketing digitale", 'site: ninja.it TikTok creator social media marketing'),
     ("Creator e formazione", 'site: engage.it TikTok creator influencer marketing'),
 ]
-OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com")
+OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com", "tiktok.com")
 # Segnali distinti: una semplice menzione di TikTok nella descrizione non basta.
 TITLE_RELEVANCE_MARKERS = (
     "tiktok shop", "creator economy", "creator", "creatori",
