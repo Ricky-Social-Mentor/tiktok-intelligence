@@ -5,10 +5,13 @@ import shutil
 import subprocess
 import tempfile
 
-from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES
+from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS
 
 
 class RelevanceFilterTests(unittest.TestCase):
+    def test_feed_age_limit_is_sixty_days(self):
+        self.assertEqual(MAX_AGE_DAYS, 60)
+
     def test_trend_seo_and_retention_queries_prioritize_recent_results(self):
         recent_categories = {"Trend e creator", "Strategia contenuti", "Crescita pratica",
                              "Trend social italiani", "Ricerca TikTok", "Video e retention",
