@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T15:06:10Z",
+  "updated_at": "2026-10-21T15:22:33Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpu2pqdm9rtwn5te10zenrrth6nhjun0z3tg9zx2s3unlfvwjqb",
@@ -21,6 +21,17 @@
       "source_url": "https://newsroom.tiktok.com",
       "category": "Funzioni TikTok",
       "confidence": "verified",
+      "published_at": "2026-10-05T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiuwfbvv95cuxnsup5bxh3a0f1mwher3bloc16a0hiudjqac1qu2floxzmn2xxw",
+      "title": "TikTok spinge sull’AI agentica: nuovi strumenti per advertising, search e shopping - Engage.it",
+      "summary": "TikTok spinge sull’AI agentica: nuovi strumenti per advertising, search e shopping Engage.it",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUp5bXh3a0F1MWhER3BLOC16a0hIUDJQaC1qU2FlOXZMN2xXWHZ1UkVHUU5QSWM5d0JRRnNCU0YtS01YZDZwakx5NW9rLTZ5aHF4WU9ZRkM5MGIwUHdzbzhsZWxKNEEwb3NDMG96R3FQUFdCaE9yT29WclBhVWJSR3c4emh6RnoxWFVZeWRtU1hLV0hsOWY1cDlXNks3TThMX083QVV5bjAtUDZXbjJSMHpJQ3hOb0k3VFp3?oc=5",
+      "source": "Engage.it",
+      "source_url": "https://www.engage.it",
+      "category": "Marketing italiano recente",
+      "confidence": "emerging",
       "published_at": "2026-10-05T07:00:00Z"
     },
     {
@@ -77,17 +88,6 @@
       "category": "Vendita e business",
       "confidence": "emerging",
       "published_at": "2026-08-23T07:00:00Z"
-    },
-    {
-      "id": "https-news-google-com-rss-articles-cbmiyefvx3lxtfa1q3cwnle4tlfws1rhtnuztwvnndm0rnlxednbz2duce82vklze",
-      "title": "TikTok dropshipping: come fare dropshipping con TikTok Shop (2026) - Shopify",
-      "summary": "TikTok dropshipping: come fare dropshipping con TikTok Shop (2026) Shopify",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1Q3cwNlE4TlFWS1RHTnUzTWVNNDM0RnlXeDNBZ2ducE82VklzeW5mOE9YekQ2WjNSdkJKRVJfaVhaMkRMQUtuSkJraE1DaXVWb2tNamlFaDZYRWJDT2tFbA?oc=5",
-      "source": "Shopify",
-      "source_url": "https://www.shopify.com",
-      "category": "Vendita e business",
-      "confidence": "emerging",
-      "published_at": "2026-07-26T07:00:00Z"
     }
   ],
   "source_note": "Feed in italiano, limitato a contenuti recenti; apri la fonte originale per verificare i dettagli.",
