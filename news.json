@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T13:01:21Z",
+  "updated_at": "2026-10-21T15:05:50Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpu2pqdm9rtwn5te10zenrrth6nhjun0z3tg9zx2s3unlfvwjqb",
@@ -22,6 +22,17 @@
       "category": "Funzioni TikTok",
       "confidence": "verified",
       "published_at": "2026-10-05T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmivwfbvv95cuxqazczovdlofn4tuxtvnbsujvhrndlm2c5eejitnhzslzkqza2u",
+      "title": "Beiersdorf punta su TikTok per accelerare la crescita omnicanale di Nivea Sun Face - Engage.it",
+      "summary": "Beiersdorf punta su TikTok per accelerare la crescita omnicanale di Nivea Sun Face Engage.it",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQazczOVdlOFN4TUxtVnBsUjVHRndlM2c5eEJITnhZSlZKQzA2UUJZNWo0SDc2dHRrMUZ2MFhfTDBjMlBEVVFIcDFFb0N1b1hsM3Y0eGxzQ1pzQndFQTItZ1lFcVRCSzNyVVdQT0taVHN1M0RSZHlPeGZ4ZEpBRHY3NzlLaXVrYkkxNzBTRko3a2NIaWdBMGpZZ3l5b1VLVEVNMTBGX0FLd0xqZzhnUnBRUWNwaUJyRUFSTXhJNnh1UQ?oc=5",
+      "source": "Engage.it",
+      "source_url": "https://www.engage.it",
+      "category": "Marketing italiano recente",
+      "confidence": "emerging",
+      "published_at": "2026-09-28T10:12:41Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxncjiwm29dvwpuyvhsevlazf9vc3pwehf6bzvlsfy5c1yztzi5q",
