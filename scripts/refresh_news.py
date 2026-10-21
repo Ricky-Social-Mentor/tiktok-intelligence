@@ -114,6 +114,12 @@ def is_relevant(title, summary):
     # Servono sia un riferimento esplicito a TikTok sia un tema utile ai creator nel titolo.
     return has_tiktok_mention and title_has_signal and topic_hits >= 1
 
+def is_recent(published, now=None):
+    """Accetta solo date entro la finestra configurata, con tolleranza di un giorno futuro."""
+    if now is None:
+        now = datetime.now(timezone.utc)
+    return now - timedelta(days=MAX_AGE_DAYS) <= published <= now + timedelta(days=1)
+
 def fetch(query, category):
     params = urllib.parse.urlencode({"q": query, "hl": "it", "gl": "IT", "ceid": "IT:it"})
     url = "https://news.google.com/rss/search?" + params
@@ -133,7 +139,7 @@ def fetch(query, category):
         published = parse_date(item.findtext("pubDate", ""))
         if not title or not link or not published:
             continue
-        if published < now - timedelta(days=MAX_AGE_DAYS) or published > now + timedelta(days=1):
+        if not is_recent(published, now):
             continue
         if not italian_enough(title, desc) or not is_relevant(title, desc):
             continue
