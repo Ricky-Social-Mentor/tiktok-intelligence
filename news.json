@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T16:07:12Z",
+  "updated_at": "2026-10-21T16:07:29Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmimafbvv95cuxpu2pqdm9rtwn5te10zenrrth6nhjun0z3tg9zx2s3unlfvwjqb",
@@ -21,6 +21,17 @@
       "source_url": "https://newsroom.tiktok.com",
       "category": "Funzioni TikTok",
       "confidence": "verified",
+      "published_at": "2026-10-05T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiuwfbvv95cuxnsup5bxh3a0f1mwher3bloc16a0hiudjqac1qu2floxzmn2xxw",
+      "title": "TikTok spinge sull’AI agentica: nuovi strumenti per advertising, search e shopping - Engage.it",
+      "summary": "TikTok spinge sull’AI agentica: nuovi strumenti per advertising, search e shopping Engage.it",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSUp5bXh3a0F1MWhER3BLOC16a0hIUDJQaC1qU2FlOXZMN2xXWHZ1UkVHUU5QSWM5d0JRRnNCU0YtS01YZDZwakx5NW9rLTZ5aHF4WU9ZRkM5MGIwUHdzbzhsZWxKNEEwb3NDMG96R3FQUFdCaE9yT29WclBhVWJSR3c4emh6RnoxWFVZeWRtU1hLV0hsOWY1cDlXNks3TThMX083QVV5bjAtUDZXbjJSMHpJQ3hOb0k3VFp3?oc=5",
+      "source": "Engage.it",
+      "source_url": "https://www.engage.it",
+      "category": "Marketing italiano recente",
+      "confidence": "emerging",
       "published_at": "2026-10-05T07:00:00Z"
     },
     {
