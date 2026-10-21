@@ -78,7 +78,7 @@ OFF_TOPIC_MARKERS = (
     "dichiarazione di tiktok shop sulle recensioni",
 )
 HEADERS = {"User-Agent": "TikTokIntelligence/1.1 (public RSS reader)"}
-MAX_AGE_DAYS = 90
+MAX_AGE_DAYS = 60  # Mantiene il feed utile senza trattenere notizie troppo datate.
 ITALIAN_MARKERS = {"il", "lo", "la", "gli", "le", "un", "una", "di", "del", "della", "dei", "delle", "che", "per", "con", "su", "come", "nuovo", "nuova", "nuove", "aggiornamento", "funzioni", "creator", "tiktok", "sono", "arriva", "arrivano", "dopo", "dalle", "dalla", "anche", "più", "italia", "italiano", "italiana", "video", "commenti", "strumenti"}
 ENGLISH_MARKERS = {"the", "and", "for", "with", "from", "how", "what", "why", "new", "latest", "tips", "guide", "trend", "trends", "households", "returning", "levels", "lead", "exclusive", "announces", "introduces", "update", "updates", "growth", "small", "business", "viral"}
 
