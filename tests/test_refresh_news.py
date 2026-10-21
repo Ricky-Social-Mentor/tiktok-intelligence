@@ -6,7 +6,7 @@ import shutil
 import subprocess
 import tempfile
 
-from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS, OFFICIAL_DOMAINS, is_recent
+from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS, OFFICIAL_DOMAINS, is_official_source, is_recent
 
 
 class RelevanceFilterTests(unittest.TestCase):
@@ -15,6 +15,16 @@ class RelevanceFilterTests(unittest.TestCase):
 
     def test_tiktok_owned_domains_are_official_sources(self):
         self.assertIn("tiktok.com", OFFICIAL_DOMAINS)
+
+    def test_official_source_classifier_accepts_tiktok_domains_and_subdomains(self):
+        self.assertTrue(is_official_source("https://www.tiktok.com/@creator"))
+        self.assertTrue(is_official_source("https://newsroom.tiktok.com/it-IT/news"))
+        self.assertTrue(is_official_source("https://tiktok.com/"))
+
+    def test_official_source_classifier_rejects_lookalike_domains(self):
+        self.assertFalse(is_official_source("https://tiktok.com.example.org/article"))
+        self.assertFalse(is_official_source("https://not-tiktok.com/article"))
+        self.assertFalse(is_official_source("https://example.org/?next=tiktok.com"))
 
     def test_recent_filter_keeps_exact_cutoff_and_rejects_older_items(self):
         now = datetime(2026, 10, 21, 12, 0, tzinfo=timezone.utc)
