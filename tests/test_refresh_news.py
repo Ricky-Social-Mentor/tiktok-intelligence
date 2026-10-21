@@ -1,16 +1,28 @@
 import unittest
+from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 import shutil
 import subprocess
 import tempfile
 
-from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS
+from scripts.refresh_news import is_relevant, italian_enough, near_duplicate, deduplicate_articles, QUERIES, MAX_AGE_DAYS, is_recent
 
 
 class RelevanceFilterTests(unittest.TestCase):
     def test_feed_age_limit_is_sixty_days(self):
         self.assertEqual(MAX_AGE_DAYS, 60)
+
+    def test_recent_filter_keeps_exact_cutoff_and_rejects_older_items(self):
+        now = datetime(2026, 10, 21, 12, 0, tzinfo=timezone.utc)
+        cutoff = now - timedelta(days=60)
+        self.assertTrue(is_recent(cutoff, now))
+        self.assertFalse(is_recent(cutoff - timedelta(seconds=1), now))
+
+    def test_recent_filter_allows_one_day_clock_skew_only(self):
+        now = datetime(2026, 10, 21, 12, 0, tzinfo=timezone.utc)
+        self.assertTrue(is_recent(now + timedelta(days=1), now))
+        self.assertFalse(is_recent(now + timedelta(days=1, seconds=1), now))
 
     def test_trend_seo_and_retention_queries_prioritize_recent_results(self):
         recent_categories = {"Trend e creator", "Strategia contenuti", "Crescita pratica",
