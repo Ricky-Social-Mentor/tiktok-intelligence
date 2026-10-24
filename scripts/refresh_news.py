@@ -43,9 +43,13 @@ QUERIES = [
     ("Imprese e creator recenti", 'site:startupitalia.eu TikTok creator social commerce when:30d'),
     ("SEO creator recente", 'TikTok SEO ricerca creator parole chiave video Italia when:30d'),
     ("Creator economy", 'TikTok economia creator guadagnare collaborazioni Italia'),
-    ("Fonti social italiane", 'site: punto-informatico.it TikTok creator aggiornamento'),
-    ("Marketing digitale", 'site: ninja.it TikTok creator social media marketing'),
-    ("Creator e formazione", 'site: engage.it TikTok creator influencer marketing'),
+    ("Tecnologia italiana recente", 'site:punto-informatico.it TikTok creator aggiornamenti when:30d'),
+    ("Innovazione e imprese recenti", 'site:economyup.it TikTok creator social commerce when:30d'),
+    ("Comunicazione digitale recente", 'site:corrierecomunicazioni.it TikTok creator social media when:30d'),
+    ("Notizie e creator recenti", 'site:adnkronos.com TikTok creator influencer marketing when:30d'),
+    ("Tecnologia e cultura digitale", 'site:wired.it TikTok creator video social when:30d'),
+    ("Marketing digitale", 'site:ninja.it TikTok creator social media marketing'),
+    ("Creator e formazione", 'site:engage.it TikTok creator influencer marketing'),
 ]
 OFFICIAL_DOMAINS = ("newsroom.tiktok.com", "news.tiktok.com", "tiktok.com")
 
