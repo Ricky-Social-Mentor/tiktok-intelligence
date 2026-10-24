@@ -42,7 +42,9 @@ class RelevanceFilterTests(unittest.TestCase):
                              "Trend social italiani", "Ricerca TikTok", "Video e retention",
                              "Novità ufficiali recenti", "Marketing italiano recente",
                              "Social media Italia recente", "Imprese e creator recenti",
-                             "SEO creator recente"}
+                             "SEO creator recente", "Tecnologia italiana recente",
+                             "Innovazione e imprese recenti", "Comunicazione digitale recente",
+                             "Notizie e creator recenti", "Tecnologia e cultura digitale"}
         query_map = dict(QUERIES)
         for category in recent_categories:
             with self.subTest(category=category):
