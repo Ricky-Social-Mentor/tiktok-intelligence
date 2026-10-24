@@ -1,6 +1,6 @@
-# TikTok Intelligence
+# Social Mentor — TikTok Intelligence
 
-Dashboard in italiano per monitorare notizie TikTok e trasformarle in bozze video per creator, professionisti e piccole attività.
+**Social Mentor** è il brand pubblico del progetto: una dashboard in italiano per monitorare notizie TikTok e trasformarle in bozze video per creator, professionisti e piccole attività.
 
 ## Funzioni
 - Interfaccia responsive per smartphone.
@@ -17,12 +17,12 @@ Dashboard in italiano per monitorare notizie TikTok e trasformarle in bozze vide
 1. Apri **Settings → Pages** in questo repository.
 2. In **Build and deployment**, scegli **Deploy from a branch**.
 3. Scegli il branch **main** e la cartella **/(root)**, poi premi **Save**.
-4. Dopo il deploy, il sito dovrebbe essere disponibile su `https://riccardomontanaroact-hub.github.io/tiktok-intelligence/`.
+4. Dopo il deploy, copia l’indirizzo pubblicato mostrato da GitHub Pages nelle impostazioni del repository. Il titolo e il branding del sito sono **Social Mentor**. Nota: l’indirizzo gratuito GitHub Pages continua a includere il nome dell’account proprietario; per cambiare anche quella parte serve pubblicare il sito da un account o un’organizzazione GitHub con nome brand, se disponibile.
 
 ## Raccolta delle notizie
-- Per una nuova raccolta: apri **Actions → Refresh TikTok news → Run workflow**.
+- Per una nuova raccolta manuale: dalla gestione del progetto, apri **Actions → Refresh TikTok news → Run workflow**.
 - Il workflow prova a raccogliere i feed ogni sei ore.
-- **Ricarica notizie** nella dashboard rilegge il feed già pubblicato. **Avvia raccolta aggiornata** apre il workflow GitHub, dove confermare **Run workflow**. Il browser non contiene token segreti.
+- **Ricarica notizie** nella dashboard rilegge il feed già pubblicato. La raccolta automatica è programmata ogni sei ore; l’avvio manuale resta disponibile nella sezione Actions del progetto. Il browser non contiene token segreti.
 - Le notizie provengono da ricerche RSS pubbliche di Google News. Disponibilità e qualità dipendono dai feed esterni.
 
 ## Verifica delle fonti
