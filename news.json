@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T13:08:18Z",
+  "updated_at": "2026-11-07T21:55:00Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmipwfbvv95cuxqb3nmvtv5x093avrkrtntsenlvm96dvbbd2zyzkrvlwl6cgxtu",
@@ -11,6 +11,17 @@
       "category": "Marketing italiano recente",
       "confidence": "emerging",
       "published_at": "2026-10-28T11:18:37Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmiekfvx3lxte1knnbozehgwtlfqmnetnmwafphum51u2pvmupjmklczfrlt3fio",
+      "title": "\"Stai zittaaa\" , cosa significa il nuovo trend virale su TikTok e chi l'ha inventato ? Vi sveliamo tutto! - Webboh",
+      "summary": "\"Stai zittaaa\" , cosa significa il nuovo trend virale su TikTok e chi l'ha inventato ? Vi sveliamo tutto! Webboh",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1KNnBoZEhGWTlFQmNETnMwaFpHUm51U2pvMUpJMklCZFRlT3FIOF9iVjhSOWRqSVRpZDN0MVdudDBSUnVGaXFCM1RCeUFDTnFBb2cxWk1ka2lTWXJEakFzb3U4RHFRUGdXdGdncndpOFFleUpfdTNLTm1n?oc=5",
+      "source": "Webboh",
+      "source_url": "https://www.webboh.it",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-10-22T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxnudvudunlvepmdvvpohfymvnrae9sctdjlwi2amdsymdjbllrm",
