@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:59:00Z",
+  "updated_at": "2026-11-13T06:50:51Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmilafbvv95cuxovzq0rm5nbkuychm0c2nivxjarmi1vtnsstfvc3v1zlbxbedsv",
@@ -11,6 +11,17 @@
       "category": "Aggiornamenti TikTok",
       "confidence": "emerging",
       "published_at": "2026-11-10T17:41:17Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmihgfbvv95cuxndexizjm4z0v6tmn0nzrjm0gxqjfgmlzwnhrhunnoeexjrknzu",
+      "title": "Piedi nel sale per dormire meglio: il nuovo trend di TikTok - Radio 105",
+      "summary": "Piedi nel sale per dormire meglio: il nuovo trend di TikTok Radio 105",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdExIZjM4Z0V6TmN0NzRjM0gxQjFGMlZWNHRhUnNoeExjRkNZUThJRkx3dF9pM3JCM1ZiN0RkVDdia19sUmVSMEs3OXd1Qkx1RjFGTzVwLVI3Vnc3UWg4a2ZVd05QcmRzZE53eVRISTNDTTIwU0ZLSWc0NnBRUU1fdmwweEtoUdIBjgFBVV95cUxQSUR0cHVmdTNFbHctOExOQ0MxTG9qMEl2TjN5dlZlZjE3cEQyelNkZXVBZ25UVzNSaU9tOV9lN3N0eUJ3dEpkVmpOWS1HdVdPVlZFb3NoVlZhaHhXMkt4VWFFejY1TXpVZ2JtbFozQ0Q4S3F1cFFKQjZoaGR2SVdzajdwc2tIUkkyU0txNDVn?oc=5",
+      "source": "Radio 105",
+      "source_url": "https://www.105.net",
+      "category": "Trend e creator",
+      "confidence": "emerging",
+      "published_at": "2026-11-09T12:23:49Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmipwfbvv95cuxqb3nmvtv5x093avrkrtntsenlvm96dvbbd2zyzkrvlwl6cgxtu",
