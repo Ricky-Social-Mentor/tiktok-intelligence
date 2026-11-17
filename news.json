@@ -1,17 +1,6 @@
 {
-  "updated_at": "2026-11-16T22:10:43Z",
+  "updated_at": "2026-11-17T07:59:21Z",
   "articles": [
-    {
-      "id": "https-news-google-com-rss-articles-cbmiwafbvv95cuxqyzrkc0fbm2lvm0gxanm5btvvrmdqamxmtlf4qxnjbnq1cwrwd",
-      "title": "Kantar: TikTok è il touchpoint che più contribuisce alla differenziazione dei brand - Engage.it",
-      "summary": "Kantar: TikTok è il touchpoint che più contribuisce alla differenziazione dei brand Engage.it",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYzRKc0FBM2lvM0gxanM5bTVVRmdqamxmTlF4QXNjbnQ1cWRwdmhNbk01ZUFKaTB5LUFIaWpqNV96NWZKUHRUcTJ1UVZHOE03VkZaMzVfTURRdTJIV05JdkIwbmlWTkl5VWZUUjJ6ZVNCdXBDZjYwZThOeFFVeF9Pa1VpQ0pUQ1B1amw0V1BOX01EQ3ZzbE9weFJMTFlLYWVzVzVMbnFBZFZvcjJ1TEFtcF9LdWtaeHNBMktFbWFhdWM?oc=5",
-      "source": "Engage.it",
-      "source_url": "https://www.engage.it",
-      "category": "Marketing italiano recente",
-      "confidence": "emerging",
-      "published_at": "2026-11-16T11:28:22Z"
-    },
     {
       "id": "https-news-google-com-rss-articles-cbmi1afbvv95cuxomxf2qmpkvmdbr2uzbhprlwnbunpuck9vx0m3mevhswxzevmzm",
       "title": "TikTok, un motore di crescita per l’economia italiana: 2,9 miliardi di euro di valore aggiunto nel 2025 - Newsroom | TikTok",
@@ -24,15 +13,26 @@
       "published_at": "2026-11-10T18:09:10Z"
     },
     {
-      "id": "https-news-google-com-rss-articles-cbmipwfbvv95cuxqb3nmvtv5x093avrkrtntsenlvm96dvbbd2zyzkrvlwl6cgxtu",
-      "title": "Cortilia affida a Superhumans la strategia e la comunicazione su TikTok - Engage.it",
-      "summary": "Cortilia affida a Superhumans la strategia e la comunicazione su TikTok Engage.it",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb3NMVTV5X093aVRkRTNtSENLVm96dVBBd2ZyZkRVLWl6cGxtUUJjZ3ZQaUxTcUNMTDdJX0pvbHhrUENmRjZ6dE9ZT1NJNnJtYlZnMlRKYWdNNGhZNFZfRk81bnBkdnRXMUVZT3pMcjd4OXVjUnBMVUFVdWg4RUpmTElMR0VmLTUyUDJQdEpicnlOMERNMXo0ZGhUTERvOVJjT0NKaFdRSQ?oc=5",
-      "source": "Engage.it",
-      "source_url": "https://www.engage.it",
-      "category": "Marketing italiano recente",
-      "confidence": "emerging",
-      "published_at": "2026-10-28T07:00:00Z"
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxnudvudunlvepmdvvpohfymvnrae9sctdjlwi2amdsymdjbllrm",
+      "title": "Condizioni d'uso per i Creator di TikTok Shop UE - TikTok",
+      "summary": "Condizioni d'uso per i Creator di TikTok Shop UE TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUDVUdUNLVEpMdVVpOHFYMVNRaE9scTdJLWI2amdsYmdjbllRMWVPaGx5ZkNGSW9xZjVKYnl5Nlhyd1BoZXctZkp4WmU2dXJTZHVhUU9COTNjRHNZSm1EUVNHaUFfTGJ1OWctcWVsMEV1eG5aeTM3NjN2UlVTV3JSLQ?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "verified",
+      "published_at": "2026-10-21T07:00:00Z"
+    },
+    {
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxps202u3ply0j0dfg5mmzjwnnhmxbmcvfedxrgzfrgu3prdgnrn",
+      "title": "Termini e Condizioni per l’Acquirente per le Offerte in Diretta nell’UE (LIVE Bidding) - TikTok",
+      "summary": "Termini e Condizioni per l’Acquirente per le Offerte in Diretta nell’UE (LIVE Bidding) TikTok",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS202U3pLY0J0dFg5MmZJWnNhMXBMcVFEdXRGZFRGU3pRdGNRN0pINWhDdTIzaUtiWmxFT2Qyc3VyQ3drbGxueGNFQ1BvNmd1WVE2TVA4bXNZMmZBZlkwNDBrX1Mwdm5QdUJWOTFZbGM2ZmpoWmx2U3V0ckEwWmJ0WQ?oc=5",
+      "source": "TikTok",
+      "source_url": "https://seller-it.tiktok.com",
+      "category": "TikTok Shop ufficiale",
+      "confidence": "verified",
+      "published_at": "2026-10-19T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbmibefvx3lxtfa0vknpaxjrbvpjutg1aw5sz0xzwtdoemxuwwz6wfrty1h2rgz4r",
@@ -48,10 +48,15 @@
   ],
   "source_note": "Feed in italiano, limitato a contenuti recenti; apri la fonte originale per verificare i dettagli.",
   "collection_warnings": [
+    "Trucchi e crescita: HTTPError",
+    "Trend e creator: HTTPError",
+    "Creator e strumenti: HTTPError",
     "Crescita pratica: HTTPError",
-    "TikTok Shop ufficiale: HTTPError",
-    "Video e retention: HTTPError",
-    "Imprese e creator recenti: HTTPError",
-    "Creator economy: HTTPError"
+    "Creator marketing: HTTPError",
+    "Trend social italiani: HTTPError",
+    "Marketing italiano recente: HTTPError",
+    "Tecnologia italiana recente: HTTPError",
+    "Innovazione e imprese recenti: HTTPError",
+    "Tecnologia e cultura digitale: HTTPError"
   ]
 }
