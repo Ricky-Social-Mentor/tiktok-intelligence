@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T20:36:45Z",
+  "updated_at": "2026-11-19T07:31:41Z",
   "articles": [
     {
       "id": "https-news-google-com-rss-articles-cbmiwafbvv95cuxqyzrkc0fbm2lvm0gxanm5btvvrmdqamxmtlf4qxnjbnq1cwrwd",
@@ -13,17 +13,6 @@
       "published_at": "2026-11-16T11:28:22Z"
     },
     {
-      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxncextefpndun2wk9myzrxruhvog1muvhav2qyu0v4ykoxz0lle",
-      "title": "Programma pilota per i creator - TikTok",
-      "summary": "Programma pilota per i creator TikTok",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcExTeFpNdUN2Wk9mYzRXRUhvOG1mUVhaV2QyU0V4YkoxZ0lLeUtPX2FuN2x0ZzkxTnNvNzg4Smtua3ROXzVnNXJacnpjcEdETEl2bDVyVkV5X0hOTl8tTmRsRVcyc1cyOXg3TnNFdTByYkt0VGc4Q0pVbm9CeXVvYQ?oc=5",
-      "source": "TikTok",
-      "source_url": "https://seller-it.tiktok.com",
-      "category": "TikTok Shop ufficiale",
-      "confidence": "verified",
-      "published_at": "2026-11-06T08:00:00Z"
-    },
-    {
       "id": "https-news-google-com-rss-articles-cbmipwfbvv95cuxqb3nmvtv5x093avrkrtntsenlvm96dvbbd2zyzkrvlwl6cgxtu",
       "title": "Cortilia affida a Superhumans la strategia e la comunicazione su TikTok - Engage.it",
       "summary": "Cortilia affida a Superhumans la strategia e la comunicazione su TikTok Engage.it",
@@ -33,28 +22,6 @@
       "category": "Marketing italiano recente",
       "confidence": "emerging",
       "published_at": "2026-10-28T07:00:00Z"
-    },
-    {
-      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxnudvudunlvepmdvvpohfymvnrae9sctdjlwi2amdsymdjbllrm",
-      "title": "Condizioni d'uso per i Creator di TikTok Shop UE - TikTok",
-      "summary": "Condizioni d'uso per i Creator di TikTok Shop UE TikTok",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUDVUdUNLVEpMdVVpOHFYMVNRaE9scTdJLWI2amdsYmdjbllRMWVPaGx5ZkNGSW9xZjVKYnl5Nlhyd1BoZXctZkp4WmU2dXJTZHVhUU9COTNjRHNZSm1EUVNHaUFfTGJ1OWctcWVsMEV1eG5aeTM3NjN2UlVTV3JSLQ?oc=5",
-      "source": "TikTok",
-      "source_url": "https://seller-it.tiktok.com",
-      "category": "TikTok Shop ufficiale",
-      "confidence": "verified",
-      "published_at": "2026-10-21T07:00:00Z"
-    },
-    {
-      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxps202u3ply0j0dfg5mmzjwnnhmxbmcvfedxrgzfrgu3prdgnrn",
-      "title": "Termini e Condizioni per l’Acquirente per le Offerte in Diretta nell’UE (LIVE Bidding) - TikTok",
-      "summary": "Termini e Condizioni per l’Acquirente per le Offerte in Diretta nell’UE (LIVE Bidding) TikTok",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS202U3pLY0J0dFg5MmZJWnNhMXBMcVFEdXRGZFRGU3pRdGNRN0pINWhDdTIzaUtiWmxFT2Qyc3VyQ3drbGxueGNFQ1BvNmd1WVE2TVA4bXNZMmZBZlkwNDBrX1Mwdm5QdUJWOTFZbGM2ZmpoWmx2U3V0ckEwWmJ0WQ?oc=5",
-      "source": "TikTok",
-      "source_url": "https://seller-it.tiktok.com",
-      "category": "TikTok Shop ufficiale",
-      "confidence": "verified",
-      "published_at": "2026-10-19T07:00:00Z"
     },
     {
       "id": "https-news-google-com-rss-articles-cbminwjbvv95cuxnszztqthyatb1owzzbfpxc29qnnnctdh5dwfptglacxlucfgzm",
@@ -80,5 +47,7 @@
     }
   ],
   "source_note": "Feed in italiano, limitato a contenuti recenti; apri la fonte originale per verificare i dettagli.",
-  "collection_warnings": []
+  "collection_warnings": [
+    "TikTok Shop ufficiale: HTTPError"
+  ]
 }
