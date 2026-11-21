@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-11-21T07:15:53Z",
+  "updated_at": "2026-11-21T19:21:09Z",
   "articles": [
+    {
+      "id": "https-news-google-com-rss-articles-cbmiiwfbvv95cuxqsxvjcdytnmjku1zna2piumnwqlnhvza4bkxptvzhemwwym15z",
+      "title": "Nuovi strumenti per garantire chiarezza e controllo sui contenuti generati con l’IA - Newsroom | TikTok",
+      "summary": "Nuovi strumenti per garantire chiarezza e controllo sui contenuti generati con l’IA Newsroom | TikTok",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSXVjcDYtNmJKU1ZNa2pIUmNWQlNHVzA4bkxPTVZhemwwYm15ZUVQZjZvTTNZUk9ndzYzRUx0UkhMeVpvX0ZuSGxyWEliUTNJTXRZaGs5LVFYYW9UcW44c0NXel9ROW9qb2N0dnFGbnJVcUU2bVA0Z2V6WHpfNzN4bEM5MHpoOHJDMllz?oc=5",
+      "source": "Newsroom | TikTok",
+      "source_url": "https://newsroom.tiktok.com",
+      "category": "Funzioni TikTok",
+      "confidence": "verified",
+      "published_at": "2026-11-19T08:00:00Z"
+    },
     {
       "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxnudvudunlvepmdvvpohfymvnrae9sctdjlwi2amdsymdjbllrm",
       "title": "Condizioni d'uso per i Creator di TikTok Shop UE - TikTok",
@@ -57,10 +68,10 @@
       "published_at": "2026-10-19T07:00:00Z"
     },
     {
-      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxps202u3ply0j0dfg5mmzjwnnhmxbmcvfedxrgzfrgu3prdgnrn",
+      "id": "https-news-google-com-rss-articles-cbmigafbvv95cuxpulvdwfl6x2djmdlidthjtvf6azjroxhmxzjkajn3tmy5u1zhd",
       "title": "Termini e Condizioni per l’Acquirente per le Offerte in Diretta nell’UE (LIVE Bidding) - TikTok",
       "summary": "Termini e Condizioni per l’Acquirente per le Offerte in Diretta nell’UE (LIVE Bidding) TikTok",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS202U3pLY0J0dFg5MmZJWnNhMXBMcVFEdXRGZFRGU3pRdGNRN0pINWhDdTIzaUtiWmxFT2Qyc3VyQ3drbGxueGNFQ1BvNmd1WVE2TVA4bXNZMmZBZlkwNDBrX1Mwdm5QdUJWOTFZbGM2ZmpoWmx2U3V0ckEwWmJ0WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUlVDWFl6X2dJMDlidThJTVF6azJrOXhmXzJKajN3TmY5U1ZHd3Zfa1prZzFyYTNEVDgycG5Na0RMUDN0dmtDekVCVUIyYVE3V29YOC11V0o4bE43aGxkS3liYlBlZmRyS3hvQmh5OFJzU1hPTHhnNjRRM2laSGhiWg?oc=5",
       "source": "TikTok",
       "source_url": "https://seller-it.tiktok.com",
       "category": "TikTok Shop ufficiale",
